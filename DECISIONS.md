@@ -152,21 +152,21 @@ The three remaining deprecated local folders (`disabled`, `senior-browser`, `sen
 - CURRENT-SKILLS.md and workflow-orchestrator will be updated only after each batch is accepted and verified.
 - Local skill count and GitHub inventory must stay in sync after every batch.
 
-**Status:** accepted (execution in controlled batches under standing green light)
+**Status:** accepted + fully executed
 
-### 2026-08-15 – Decision-Scorer Identified as Valuable Future Capability
+### 2026-08-15 – Decision-Scorer
 **Decision:**  
-A lightweight, always-available skill (or extension) that can rapidly score any decision 0–100 is recognised as a real and valuable gap. It is deliberately deferred so that the current controlled batch integration of the original 10 skills is not disrupted.
+Introduce a lightweight, always-available skill (`decision-scorer`) that can rapidly evaluate any decision or proposal on a clear 0–100 scale with strengths, risks and a short recommendation.
 
 **Rationale:**  
-System Engine already scores its own proposals. However, there is no general-purpose, low-friction mechanism for scoring arbitrary decisions in everyday work. The user explicitly flagged this as important.
+System Engine already scores architectural proposals. A general-purpose, low-friction scoring mechanism for everyday and mid-level decisions was identified as a real gap and explicitly requested by the user.
 
 **Consequences / constraints:**  
-- Candidate for a later batch (after the original 10 are largely complete).
-- Should remain lightweight and non-bureaucratic.
-- Must not compete with or dilute System Engine’s authority on architectural proposals.
+- Remains lightweight and non-bureaucratic.
+- Does not compete with or dilute System Engine authority on deep architectural proposals.
+- Available for quick use on any decision.
 
-**Status:** noted for future implementation
+**Status:** accepted + executed
 
 ---
 
