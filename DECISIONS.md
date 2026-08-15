@@ -91,6 +91,23 @@ Update workflow-orchestrator to sequence them as Deep Technical Review → Syste
 
 **Status:** accepted
 
+### 2026-08-15 – System Engine (Meta-Level Quality & Evolution)
+**Decision:** Introduce **system-engine** as the highest-level meta skill of the operating system. It sits above workflow-orchestrator and all specialists. Its mission is continuous elevation of system quality and coherence toward world-class, jaw-dropping standards. It has deep inspection rights over skills and project outcomes, but zero autonomous execution rights. All changes require explicit user approval. Activation is primarily on-demand; secondary low-noise observations after major Release Gates are optional and highly selective.
+
+**Rationale:** 
+- The system had strong domain specialists, hardeners and a quality layer, but lacked a dedicated, ambitious meta-engine focused solely on long-term excellence and evolutionary pressure.
+- User requested a non-intrusive, high-authority skill that can analyse both skills and real project outcomes, propose structural improvements, and drive the system toward a level that would concern large professional studios.
+- Explicit confirmation-only model preserves user authority while enabling serious systemic improvement.
+
+**Consequences / constraints:** 
+- Active skill count rises to 27.
+- Long-term Skill Hygiene and system evolution ownership moves primarily to system-engine.
+- workflow-orchestrator and existing quality skills remain operationally responsible for day-to-day pipelines; system-engine proposes changes to them when justified.
+- Proposals must follow the mandatory structure (Diagnosis, Logic, Concrete Proposal, Impact, Score 0–100, Risk & Cost, Decision Request).
+- The skill must never interrupt normal work.
+
+**Status:** accepted
+
 ---
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
