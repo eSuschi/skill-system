@@ -26,13 +26,17 @@ Output: Go / No-go + recommended shape of the solution.
 ## 3. Domain Specialist Execution
 **Goal:** High-quality implementation by the most appropriate specialist skill(s).
 
-Examples of specialists:
-- Advanced Website Expert / Business Site Studio
-- Principal Engine Architect
-- Browser Game Expert
-- AI Meeting Buddy Builder
-- Senior Software Engineer
-- Principal Life App Architect
+Current highest-level specialists include:
+
+- **advanced-website-expert** / **business-site-studio** – professional business websites and the Studio product
+- **principal-engine-architect** – advanced modular 2D engines
+- **browser-game-expert** – complete playable browser games
+- **ai-meeting-buddy-builder** – specialized Meeting Buddy (voice Excel/PowerPoint on large screens)
+- **microsoft-office-companion-builder** – broader Office suite (Word, Excel, PowerPoint, Outlook) desktop companions
+- **microsoft-office-word-expert** – professional document engineering
+- **principal-life-app-architect** – high-impact life-improving mobile apps
+- **senior-software-engineer** – full lifecycle software engineering
+- **imagine-prompt-specialist**, **ai-opportunity-hunter**, **ai-problem-investigator**, **machine-fault-logger** and others for their precise domains
 
 Output: Working code + documentation that meets professional standards.
 
