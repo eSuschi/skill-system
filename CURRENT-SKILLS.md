@@ -16,7 +16,7 @@ Skills activate automatically based on intent. The user should never need to ask
 ## Process & Gate Skills (auto-activated)
 - **requirements-clarifier** – activates by default on any underspecified creation request
 - **product-impact-architect** – first-principles impact and go/no-go
-- **workflow-orchestrator** – automatically designs and runs the full multi-skill pipeline
+- **workflow-orchestrator** – automatically designs and runs the full multi-skill pipeline (now explicitly sequences the domain hardeners)
 - **project-decision-logger** – maintains durable DECISIONS.md across sessions
 - **principal-code-review** – rigorous adversarial code review
 - **final-code-auditor** – post-build full defect + language scan
@@ -59,4 +59,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-15. Added engine-ai-native-layer and project-decision-logger. Skills, tools and external sources activate automatically. Decision logs preserve context across sessions.*
+*Last updated 2026-08-15. workflow-orchestrator now explicitly sequences live-presentation-hardener, conversion-website-auditor, engine-ai-native-layer and project-decision-logger. System coherence and quality gates improved. Skills, tools and external sources activate automatically.*
