@@ -33,6 +33,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **recovery-resilience-orchestrator** – designs and injects recovery, resilience, session resurrection and graceful degradation
 - **adversarial-user-simulator** – generates realistic and adversarial user behaviour to stress-test products before release-gate
 - **zero-trust-security-hardener** – applies practical zero-trust principles, least privilege and secure defaults
+- **observability-telemetry-architect** – designs practical logging, metrics, health signals and diagnostic surfaces
 
 ## Domain Specialists
 
@@ -55,6 +56,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **principal-engine-architect** – advanced modular 2D engines
 - **engine-ai-native-layer** – AI-native control surfaces, declarative layers and agent interfaces for modular engines
 - **browser-game-expert** – complete playable browser games (shareable by URL)
+- **interactive-experience-architect** – designs deep, stateful, high-quality interactive experiences and emotional arcs
 
 ### Mobile / Life Impact
 - **principal-life-app-architect** – high-impact life-improving mobile apps
@@ -72,4 +74,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-15 (Batch 4). Added cinematic-continuity-director and skill-evolution-engine. Active skill count: 35. Original 10-skill integration plan largely complete. Remaining candidates from the plan (Observability & Telemetry Architect, Interactive Experience Architect) and future decision-scorer noted for later batches.*
+*Last updated 2026-08-15 (Final Batch 5). Added observability-telemetry-architect and interactive-experience-architect. Original 10-skill integration plan fully delivered. Active skill count: 37. Future candidate: decision-scorer.*
