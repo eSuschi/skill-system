@@ -28,6 +28,8 @@ Skills activate automatically based on intent. The user should never need to ask
 - **principal-code-review** – deep adversarial technical review (correctness, concurrency, resources, contracts)
 - **final-code-auditor** – system-level audit + fixer (usefulness, language, visual, edge cases) + preparation for System Engine ambition bar
 - **release-gate** – final PASS/FAIL decision + ambition enforcement (System Engine bar). Zero Critical/High. Optional System Engine Note after PASS on non-trivial work.
+- **recovery-resilience-orchestrator** – designs and injects recovery, resilience, session resurrection and graceful degradation
+- **adversarial-user-simulator** – generates realistic and adversarial user behaviour to stress-test products before release-gate
 
 ## Domain Specialists
 
@@ -64,4 +66,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-15 (Batch 1). Added skill-hygiene-enforcer and cross-skill-contract-validator. Deprecated folders fully removed. Active skill count: 29.*
+*Last updated 2026-08-15 (Batch 2). Added recovery-resilience-orchestrator and adversarial-user-simulator. Active skill count: 31.*
