@@ -154,6 +154,20 @@ The three remaining deprecated local folders (`disabled`, `senior-browser`, `sen
 
 **Status:** accepted (execution in controlled batches under standing green light)
 
+### 2026-08-15 – Decision-Scorer Identified as Valuable Future Capability
+**Decision:**  
+A lightweight, always-available skill (or extension) that can rapidly score any decision 0–100 is recognised as a real and valuable gap. It is deliberately deferred so that the current controlled batch integration of the original 10 skills is not disrupted.
+
+**Rationale:**  
+System Engine already scores its own proposals. However, there is no general-purpose, low-friction mechanism for scoring arbitrary decisions in everyday work. The user explicitly flagged this as important.
+
+**Consequences / constraints:**  
+- Candidate for a later batch (after the original 10 are largely complete).
+- Should remain lightweight and non-bureaucratic.
+- Must not compete with or dilute System Engine’s authority on architectural proposals.
+
+**Status:** noted for future implementation
+
 ---
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
