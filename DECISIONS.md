@@ -124,6 +124,36 @@ The highest leverage for raising output quality is to make the ambition bar stru
 
 **Status:** accepted + executed by System Engine under full user authority
 
+### 2026-08-15 – Adoption of 10 New High-Leverage Skills + Controlled Integration
+**Decision:**  
+Adopt the following 10 new skills into the operating system and integrate them in carefully sequenced batches:
+1. Skill Hygiene & Deprecation Enforcer
+2. Cross-Skill Contract Validator
+3. Recovery & Resilience Orchestrator
+4. Adversarial User Simulator
+5. Zero-Trust Security Hardener
+6. Cinematic Continuity Director
+7. Impact Hypothesis Tester
+8. Observability & Telemetry Architect
+9. Interactive Experience Architect
+10. Skill Evolution Engine
+
+The three remaining deprecated local folders (`disabled`, `senior-browser`, `senior-coding`) will be overwritten/removed as part of this process.
+
+**Rationale:**  
+- All 10 skills fill real gaps or significantly strengthen existing layers (hygiene, contracts, resilience, security, quality of testing, cinematic consistency, front-of-pipeline impact validation, observability, interactive depth, and long-term self-evolution).
+- The system currently has a desync between the authoritative inventory on GitHub (27 clean skills) and the local runtime folder (still contains the three deprecated skills).
+- Doing the integration in controlled batches under System Engine guidance minimises risk of breaking contracts, triggers or the orchestrator.
+
+**Consequences / constraints:**  
+- Integration will be performed in small, reviewable batches (not all at once).
+- System Engine will prepare concrete proposals for each batch (naming, ownership, triggers, pipeline placement, overwrite strategy).
+- No skill is overwritten or deleted without explicit user confirmation of that specific batch (or previously granted standing authority for careful sequential execution).
+- CURRENT-SKILLS.md and workflow-orchestrator will be updated only after each batch is accepted and verified.
+- Local skill count and GitHub inventory must stay in sync after every batch.
+
+**Status:** accepted (execution in controlled batches under standing green light)
+
 ---
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
