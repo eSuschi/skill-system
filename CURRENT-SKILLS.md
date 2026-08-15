@@ -46,6 +46,7 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ### Mobile / Life Impact
 - **principal-life-app-architect** – high-impact life-improving mobile apps
+- **life-app-hardener** – post-generation hardening for real daily-use quality (offline reliability, recovery, accessibility, performance, store readiness, daily friction)
 
 ### Other Precision Skills
 - **ai-opportunity-hunter** – opportunity discovery + Skill Factory
@@ -56,4 +57,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-15. Removed permanently deprecated skills (senior-browser, senior-coding, disabled). Skill set cleaned to 25 active skills. No overlapping responsibilities remain. Complementary chains (builders → hardeners) preserved. System coherence and hygiene improved.*
+*Last updated 2026-08-15. Added life-app-hardener to complete the domain hardener chain for life/mobile apps. Active skill count now 26. Complementary builder → hardener pattern fully applied across major domains. System coherence maintained.*
