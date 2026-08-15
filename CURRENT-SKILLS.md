@@ -10,13 +10,15 @@ Skills activate automatically based on intent. The user should never need to ask
 1. **Automatic Impact Filter** – Activate product-impact-architect early on almost every non-trivial product idea.
 2. **Project Decision Log** – For multi-session or architecturally significant projects, maintain a short `DECISIONS.md` (template in `/templates/DECISIONS.md`) in the project repository. Record only durable decisions. Supported by **project-decision-logger**.
 3. **Light Retrospective** – After Release Gate on non-trivial work, capture 1–3 short lessons. Update the system when patterns emerge.
-4. **Skill Hygiene** – Keep the skill set clean. Prefer this living inventory over any local leftovers. Remove obsolete or overlapping skills promptly. Long-term ownership of systemic hygiene and evolution belongs to **system-engine**.
+4. **Skill Hygiene** – Keep the skill set clean. Prefer this living inventory over any local leftovers. Remove obsolete or overlapping skills promptly. Long-term ownership of systemic hygiene and evolution belongs to **system-engine** and is operationally supported by **skill-hygiene-enforcer**.
 5. **Energy Allocation** – Autonomy frees attention for deeper first-principles thinking, higher ambition in quality, and better product decisions. Use it there.
 6. **System Engine Ambition Bar** – Final deliverables must meet a standard that would make a high-end professional studio uncomfortable with the quality differential. Timid or merely competent work is not acceptable.
 
 ## Meta Layer
 
 - **system-engine** – Meta-engine of the entire skill system. Highest-level quality guardian and evolutionary force. Sits above workflow-orchestrator and all specialists. Deep inspection rights over skills and project outcomes. Proposes only; never acts without explicit user approval. Ambition bar: world-class, jaw-dropping results that would concern large studios.
+- **skill-hygiene-enforcer** – Permanent guardian of inventory cleanliness. Detects dead, deprecated or desynced skills and keeps local runtime in sync with this authoritative file.
+- **cross-skill-contract-validator** – Guards ownership boundaries, triggers and hand-offs between skills. Prevents scope creep and ambiguous activation as the system grows.
 
 ## Process & Gate Skills (auto-activated)
 - **requirements-clarifier** – activates by default on any underspecified creation request
@@ -62,4 +64,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-15. System Engine ambition bar raised into the operational quality layer (release-gate, final-code-auditor, workflow-orchestrator, product-impact-architect). Active skill count 27.*
+*Last updated 2026-08-15 (Batch 1). Added skill-hygiene-enforcer and cross-skill-contract-validator. Deprecated folders fully removed. Active skill count: 29.*
