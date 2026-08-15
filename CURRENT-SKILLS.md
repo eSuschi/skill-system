@@ -12,6 +12,7 @@ Skills activate automatically based on intent. The user should never need to ask
 3. **Light Retrospective** – After Release Gate on non-trivial work, capture 1–3 short lessons. Update the system when patterns emerge.
 4. **Skill Hygiene** – Keep the skill set clean. Prefer this living inventory over any local leftovers. Remove obsolete or overlapping skills promptly. Long-term ownership of systemic hygiene and evolution belongs to **system-engine**.
 5. **Energy Allocation** – Autonomy frees attention for deeper first-principles thinking, higher ambition in quality, and better product decisions. Use it there.
+6. **System Engine Ambition Bar** – Final deliverables must meet a standard that would make a high-end professional studio uncomfortable with the quality differential. Timid or merely competent work is not acceptable.
 
 ## Meta Layer
 
@@ -19,12 +20,12 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ## Process & Gate Skills (auto-activated)
 - **requirements-clarifier** – activates by default on any underspecified creation request
-- **product-impact-architect** – first-principles impact and go/no-go
-- **workflow-orchestrator** – automatically designs and runs the full multi-skill pipeline (explicitly sequences domain hardeners and the sharpened quality layer)
+- **product-impact-architect** – first-principles impact and go/no-go (aligned with System Engine ambition bar)
+- **workflow-orchestrator** – automatically designs and runs the full multi-skill pipeline (explicitly sequences domain hardeners and the sharpened quality layer). Enforces System Engine ambition bar in Success Criterion.
 - **project-decision-logger** – maintains durable DECISIONS.md across sessions
 - **principal-code-review** – deep adversarial technical review (correctness, concurrency, resources, contracts)
-- **final-code-auditor** – system-level audit + fixer (usefulness, language, visual, edge cases)
-- **release-gate** – final PASS/FAIL decision + ambition bar (zero Critical/High)
+- **final-code-auditor** – system-level audit + fixer (usefulness, language, visual, edge cases) + preparation for System Engine ambition bar
+- **release-gate** – final PASS/FAIL decision + ambition enforcement (System Engine bar). Zero Critical/High. Optional System Engine Note after PASS on non-trivial work.
 
 ## Domain Specialists
 
@@ -61,4 +62,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-15. System Engine added as meta-level quality and evolution skill. Active skill count 27.*
+*Last updated 2026-08-15. System Engine ambition bar raised into the operational quality layer (release-gate, final-code-auditor, workflow-orchestrator, product-impact-architect). Active skill count 27.*
