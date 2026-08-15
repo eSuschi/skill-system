@@ -26,13 +26,13 @@ Skills activate automatically based on intent. The user never needs to ask Grok 
 ```
 1. Requirements Clarifier
 2. Product Impact Architect
-3. Domain Specialist(s)
+3. Domain Specialist(s) + matching Hardener
 4. Principal Code Review
 5. Final Code Auditor
 6. Release Gate
 ```
 
-Orchestration is handled by the **Workflow Orchestrator**.
+Orchestration is handled by the **Workflow Orchestrator**. Domain hardeners (conversion, life-app, live-presentation, engine-ai-native) are sequenced automatically where applicable.
 
 No stage is skipped on serious projects.
 
@@ -42,11 +42,10 @@ No stage is skipped on serious projects.
 
 ### Product & Impact
 - **product-impact-architect** – first-principles evaluation, go/no-go, high-leverage product definition
-- **principal-life-app-architect** – life-improving mobile apps (strong product judgment + architecture)
+- **principal-life-app-architect** + **life-app-hardener** – life-improving mobile apps with real daily-use hardening
 
 ### Websites & Studio
-- **advanced-website-expert** – professional business / conversion / SaaS websites
-- **business-site-studio** – the Studio product itself (process, generation engine, quality)
+- **advanced-website-expert** / **business-site-studio** + **conversion-website-auditor**
 
 ### Software Engineering
 - **senior-software-engineer** – full lifecycle, architecture, production-ready implementation
@@ -55,13 +54,12 @@ No stage is skipped on serious projects.
 - **release-gate** – mandatory final ship-ready barrier
 
 ### Desktop & Office
-- **ai-meeting-buddy-builder** – specialized local Windows Meeting Buddy (voice Excel/PowerPoint, large-screen presentations)
-- **microsoft-office-companion-builder** – broader local Windows companions for intelligent control of Word, Excel, PowerPoint, Outlook
-- **microsoft-office-word-expert** – professional document engineering (content, formatting, OOXML)
+- **ai-meeting-buddy-builder** / **microsoft-office-companion-builder** + **live-presentation-hardener**
+- **microsoft-office-word-expert** – professional document engineering
 - **live-presentation-orchestrator** – hands-free presentation sessions on large screens
 
 ### Engines & Games
-- **principal-engine-architect** – advanced modular 2D engines, professional architecture
+- **principal-engine-architect** + **engine-ai-native-layer**
 - **browser-game-expert** – complete playable browser games (shareable by URL)
 
 ### Other High-Precision
@@ -71,10 +69,7 @@ No stage is skipped on serious projects.
 - **machine-fault-logger** – specific offline-first repair session tracker
 - **requirements-clarifier** – mandatory front-end clarification before creation
 - **workflow-orchestrator** – multi-skill pipeline conductor
-
-Deprecated stubs (redirect only):
-- senior-browser → browser-game-expert
-- senior-coding → senior-software-engineer
+- **project-decision-logger** – durable decision continuity
 
 ---
 
@@ -83,7 +78,7 @@ Deprecated stubs (redirect only):
 1. You describe the goal (even roughly).
 2. Grok automatically activates **Requirements Clarifier** if needed.
 3. **Product Impact Architect** validates whether it is worth building and how.
-4. The right Domain Specialist(s) are selected and executed automatically.
+4. The right Domain Specialist(s) + matching hardener are selected and executed automatically.
 5. Code goes through **Principal Code Review** + **Final Code Auditor**.
 6. Only after **Release Gate** is the work considered ship-ready.
 
