@@ -9,13 +9,40 @@ Evaluates whether the idea is worth building from first principles.
 Filters for real usefulness and leverage.
 
 ## Stage 3 – Domain Specialists
-Deep, high-quality execution by specialised skills:
-- Websites & business sites
-- Browser games
-- Modular engines
-- Life-impact mobile apps
-- AI Meeting / presentation tools
-- General senior software engineering
+Deep, high-quality execution by specialised skills.
+
+Current highest-level specialists:
+
+**Product & Impact**
+- product-impact-architect
+- principal-life-app-architect
+
+**Websites**
+- advanced-website-expert
+- business-site-studio
+
+**Software Engineering Core**
+- senior-software-engineer
+- principal-code-review
+- final-code-auditor
+- release-gate
+
+**Desktop & Office**
+- ai-meeting-buddy-builder (Meeting Buddy – presentations, Excel/PowerPoint, large screen)
+- microsoft-office-companion-builder (broader Office suite voice/command companions)
+- microsoft-office-word-expert (document content & formatting engineering)
+- live-presentation-orchestrator
+
+**Engines & Games**
+- principal-engine-architect
+- browser-game-expert
+
+**Other Precision Skills**
+- ai-opportunity-hunter
+- ai-problem-investigator
+- imagine-prompt-specialist
+- machine-fault-logger
+- workflow-orchestrator
 
 ## Stage 4 – Principal Code Review
 Rigorous review focused on correctness, race conditions, error handling, resource management and long-term maintainability.
