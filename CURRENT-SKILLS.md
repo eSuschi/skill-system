@@ -20,6 +20,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **skill-hygiene-enforcer** – Permanent guardian of inventory cleanliness. Detects dead, deprecated or desynced skills and keeps local runtime in sync with this authoritative file.
 - **cross-skill-contract-validator** – Guards ownership boundaries, triggers and hand-offs between skills. Prevents scope creep and ambiguous activation as the system grows.
 - **skill-evolution-engine** – Analyses real usage and outcomes, then proposes concrete evolutionary improvements to the skill system under System Engine oversight.
+- **decision-scorer** – Lightweight 0–100 evaluation of any decision or proposal with clear strengths, risks and recommendation.
 
 ## Process & Gate Skills (auto-activated)
 - **requirements-clarifier** – activates by default on any underspecified creation request
@@ -74,4 +75,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-15 (Final Batch 5). Added observability-telemetry-architect and interactive-experience-architect. Original 10-skill integration plan fully delivered. Active skill count: 37. Future candidate: decision-scorer.*
+*Last updated 2026-08-15. Added decision-scorer. Active skill count: 38.*
