@@ -6,6 +6,33 @@
 
 ## Decision Log
 
+### 2026-08-15 – Automation Layer for System Hygiene & Continuous Learning
+**Decision:** Introduce a permanent scheduled Automation Layer outside of conversational skills. Two core automations activated under full user authority:
+
+1. **skill-system-hygiene-pulse** (Mondays 09:00 Europe/Amsterdam)
+   - Runs skill-hygiene-enforcer + light skill-evolution-engine analysis
+   - Compares local inventory vs CURRENT-SKILLS.md
+   - Uses decision-scorer for material proposals
+   - Zero autonomous changes — only high-signal reports
+
+2. **skill-system-retrospective-collector** (Sundays 20:00 Europe/Amsterdam)
+   - Collects 1–3 high-leverage lessons from recent project activity across eSuschi repositories
+   - Supports Light Retrospective practice and project-decision-logger continuity
+   - Uses decision-scorer when proposals arise
+
+**Rationale:** 
+- Skills operate only inside active sessions. Without background execution the system cannot self-maintain hygiene or systematically learn between conversations.
+- These two automations close the highest-leverage remaining gaps (Skill Hygiene + Light Retrospective) while fully respecting System Engine authority (propose only).
+- Decision Score for the move was 87/100. User granted unrestricted authority to implement at highest level.
+
+**Consequences / constraints:** 
+- Automations are scheduled, not event-triggered (GitHub triggers unavailable on this account).
+- Notification policy: default. Prompts are deliberately zero-noise (silent when clean).
+- Future automations must follow the same pattern: high signal, zero autonomous mutation, System Engine oversight.
+- This layer is complementary to all existing skills — it does not replace them.
+
+**Status:** accepted + fully executed
+
 ### 2026-08-15 – Domain Hardeners + Decision Continuity Layer
 **Decision:** Introduce focused post-generation hardeners (live-presentation-hardener, conversion-website-auditor, engine-ai-native-layer) and project-decision-logger. Update workflow-orchestrator to explicitly sequence them.
 
@@ -183,3 +210,5 @@ New skills were fully integrated into the inventory, but the conductor itself st
 
 **Final state of this evolution session (2026-08-15):**  
 Active skills: 38. Inventory clean. Deprecated folders removed. All 10 planned skills + decision-scorer delivered. Workflow-orchestrator updated. User authority (System Engine) preserved.
+
+**Automation Layer added 2026-08-15 evening.**
