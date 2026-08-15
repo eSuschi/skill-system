@@ -5,6 +5,14 @@ This file is the authoritative inventory of active skills used in the operating 
 **Core operating principle:**  
 Skills activate automatically based on intent. The user should never need to ask Grok to "run skill X". The same applies to external sources (GitHub, web search, etc.). Grok selects and sequences the right specialists and tools proactively at the highest professional level.
 
+## Highest-Level Operating Practices (mandatory)
+
+1. **Automatic Impact Filter** – Activate product-impact-architect early on almost every non-trivial product idea.
+2. **Project Decision Log** – For multi-session or architecturally significant projects, maintain a short `DECISIONS.md` (template in `/templates/DECISIONS.md`) in the project repository. Record only durable decisions.
+3. **Light Retrospective** – After Release Gate on non-trivial work, capture 1–3 short lessons. Update the system when patterns emerge.
+4. **Skill Hygiene** – Keep the skill set clean. Prefer this living inventory over any local leftovers.
+5. **Energy Allocation** – Autonomy frees attention for deeper first-principles thinking, higher ambition in quality, and better product decisions. Use it there.
+
 ## Process & Gate Skills (auto-activated)
 - **requirements-clarifier** – activates by default on any underspecified creation request
 - **product-impact-architect** – first-principles impact and go/no-go
@@ -47,4 +55,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated to maximum operational level. Skills and external sources (GitHub, web) are used automatically.*
+*Last updated to maximum operational level. Skills, tools and external sources activate automatically. Decision logs preserve context across sessions.*
