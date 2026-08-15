@@ -74,6 +74,23 @@ Update workflow-orchestrator to sequence them as Deep Technical Review → Syste
 
 **Status:** accepted
 
+### 2026-08-15 – GitHub as Permanent Clean Storage
+**Decision:** All meaningful collaborative work (projects, games, programs, documents, systems) is stored on GitHub under the eSuschi account. Local sandbox is temporary only. No junk is ever committed.
+
+**Rationale:** 
+- User explicitly requested permanent, clean, elegant storage of everything we build together.
+- GitHub is already the single source of truth for the skill system and domain repositories.
+- This removes any ambiguity about where finished and in-progress work lives across sessions.
+
+**Rules of engagement:**
+- Non-trivial work gets its own clean repository (or lands in the matching domain repository).
+- Structure, README, commit messages and overall presentation must be elegant and professional.
+- Continuous updates after meaningful milestones.
+- Temporary files, cache, logs and experimental debris are deleted from the sandbox and never pushed.
+- Prefer dedicated repos for finished products; use existing domain repos (skill-system, sable-engine, website-starters, etc.) when appropriate.
+
+**Status:** accepted
+
 ---
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
