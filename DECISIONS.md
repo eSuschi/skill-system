@@ -168,6 +168,18 @@ System Engine already scores architectural proposals. A general-purpose, low-fri
 
 **Status:** accepted + executed
 
+### 2026-08-15 – Workflow Orchestrator Updated for New Skills
+**Decision:**  
+Update the Standard Pipeline inside **workflow-orchestrator** so it consciously sequences all newly added skills (impact-hypothesis-tester, recovery-resilience-orchestrator, zero-trust-security-hardener, observability-telemetry-architect, adversarial-user-simulator, cinematic-continuity-director, interactive-experience-architect, decision-scorer, and skill-evolution-engine linkages).
+
+**Rationale:**  
+New skills were fully integrated into the inventory, but the conductor itself still described the old pipeline. Without this update the new capabilities would remain mostly manual.
+
+**Status:** accepted + executed
+
 ---
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
+
+**Final state of this evolution session (2026-08-15):**  
+Active skills: 38. Inventory clean. Deprecated folders removed. All 10 planned skills + decision-scorer delivered. Workflow-orchestrator updated. User authority (System Engine) preserved.
