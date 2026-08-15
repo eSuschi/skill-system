@@ -110,6 +110,20 @@ Update workflow-orchestrator to sequence them as Deep Technical Review → Syste
 
 **Status:** accepted
 
+### 2026-08-15 – Raise Ambition Bar into the Quality Layer (System Engine execution)
+**Decision:** Embed the System Engine ambition standard directly into the operational quality layer so it becomes enforceable rather than aspirational.
+
+Changes executed:
+- **release-gate**: Ambition criterion upgraded to “would make a high-end professional studio uncomfortable with the quality differential”. Timid / merely competent work is now an explicit FAIL. Added optional System Engine Note structure after PASS on non-trivial work.
+- **final-code-auditor**: Mission and ownership updated to prepare products for the System Engine ambition bar.
+- **workflow-orchestrator**: Success Criterion and Highest-Level Operating Practices updated to require the System Engine bar. Skill Hygiene ownership clarified as belonging to system-engine.
+- **product-impact-architect**: Ambition principle aligned with the same bar.
+
+**Rationale:**  
+The highest leverage for raising output quality is to make the ambition bar structural inside the skills that run on every serious project, not only inside the on-demand meta skill.
+
+**Status:** accepted + executed by System Engine under full user authority
+
 ---
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
