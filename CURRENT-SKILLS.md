@@ -19,6 +19,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **system-engine** – Meta-engine of the entire skill system. Highest-level quality guardian and evolutionary force. Sits above workflow-orchestrator and all specialists. Deep inspection rights over skills and project outcomes. Proposes only; never acts without explicit user approval. Ambition bar: world-class, jaw-dropping results that would concern large studios.
 - **skill-hygiene-enforcer** – Permanent guardian of inventory cleanliness. Detects dead, deprecated or desynced skills and keeps local runtime in sync with this authoritative file.
 - **cross-skill-contract-validator** – Guards ownership boundaries, triggers and hand-offs between skills. Prevents scope creep and ambiguous activation as the system grows.
+- **skill-evolution-engine** – Analyses real usage and outcomes, then proposes concrete evolutionary improvements to the skill system under System Engine oversight.
 
 ## Process & Gate Skills (auto-activated)
 - **requirements-clarifier** – activates by default on any underspecified creation request
@@ -59,13 +60,16 @@ Skills activate automatically based on intent. The user should never need to ask
 - **principal-life-app-architect** – high-impact life-improving mobile apps
 - **life-app-hardener** – post-generation hardening for real daily-use quality (offline reliability, recovery, accessibility, performance, store readiness, daily friction)
 
+### Cinematic & Creative
+- **imagine-prompt-specialist** – high-quality Grok Imagine prompt engineering
+- **cinematic-continuity-director** – maintains strict character, style, lighting and narrative continuity across multi-shot Imagine sequences
+
 ### Other Precision Skills
 - **ai-opportunity-hunter** – opportunity discovery + Skill Factory
 - **ai-problem-investigator** – rigorous root-cause analysis
-- **imagine-prompt-specialist** – high-quality Grok Imagine prompt engineering
 - **machine-fault-logger** – offline-first machine repair session tracker
 - **recipe-source-auditor** – recipe verification against trusted sources
 
 ---
 
-*Last updated 2026-08-15 (Batch 3). Added zero-trust-security-hardener and impact-hypothesis-tester. Active skill count: 33.*
+*Last updated 2026-08-15 (Batch 4). Added cinematic-continuity-director and skill-evolution-engine. Active skill count: 35. Original 10-skill integration plan largely complete. Remaining candidates from the plan (Observability & Telemetry Architect, Interactive Experience Architect) and future decision-scorer noted for later batches.*
