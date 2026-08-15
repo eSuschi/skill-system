@@ -12,7 +12,7 @@ Skills activate automatically based on intent. The user should never need to ask
 
 1. **Automatic Impact Filter** – Activate product-impact-architect early on almost every non-trivial product idea.
 2. **Project Decision Log** – For multi-session or architecturally significant projects, maintain a short `DECISIONS.md` (template in `/templates/DECISIONS.md`) in the project repository. Record only durable decisions. Supported by **project-decision-logger**.
-3. **Light Retrospective + Learning** – After Release Gate on non-trivial work, capture structured observations. System Engine and skill-evolution-engine use them (Quality Constitution Art. 5).
+3. **Light Retrospective + Learning** – After Release Gate on non-trivial work, capture structured observations. System Engine, skill-evolution-engine and **system-learning-core** use them (Quality Constitution Art. 5).
 4. **Skill Hygiene** – Keep the skill set clean. Long-term ownership belongs to **system-engine** + **skill-hygiene-enforcer** (Art. 6).
 5. **Energy Allocation** – Autonomy frees attention for deeper first-principles thinking and higher ambition.
 6. **Quality Constitution** – Final deliverables and all structural changes must satisfy the Constitution. Ambition bar (Art. 1) is non-negotiable. Contracts are law (Art. 4).
@@ -23,6 +23,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **skill-hygiene-enforcer** – Permanent guardian of inventory cleanliness.
 - **cross-skill-contract-validator** – Mandatory gate (Art. 4) before any new skill or pipeline structural change is accepted.
 - **skill-evolution-engine** – Long-term self-improvement loop under System Engine oversight.
+- **system-learning-core** – Cumulative operational memory of the system. Learns durable lessons, patterns and risks from real projects and surfaces them to help project creation and other skills. Non-disruptive. Complements skill-evolution-engine.
 - **decision-scorer** – Lightweight 0–100 evaluation of decisions and proposals.
 
 ## Process & Gate Skills (auto-activated)
@@ -78,4 +79,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-15 late. Quality Constitution introduced and bound to the entire system. Active skill count: 38.*
+*Last updated 2026-08-15 late evening. Added system-learning-core. Active skill count: 39.*
