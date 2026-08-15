@@ -31,11 +31,13 @@
 - Cleaner inventory improves long-term maintainability and automatic activation accuracy.
 
 **Consequences / constraints:** 
-- Skill count reduced to 25 active skills.
+- Skill count reduced to 25 active skills at the time of the original decision.
 - No functionality lost.
 - Future hygiene: remove obsolete skills promptly rather than leave permanent redirects.
 
-**Status:** accepted
+**Execution note (2026-08-15, System Engine):** Physical directories were still present. System Engine executed full removal. Local skill count is now exactly 27 and matches CURRENT-SKILLS.md. Hygiene fully restored.
+
+**Status:** accepted + fully executed
 
 ### 2026-08-15 – Complete Domain Hardener Chain (Life Apps)
 **Decision:** Add **life-app-hardener** as the missing post-generation hardener for life-improving mobile apps. Update workflow-orchestrator to sequence principal-life-app-architect → life-app-hardener. Update CURRENT-SKILLS.md inventory.
