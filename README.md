@@ -11,6 +11,16 @@ Skills activate automatically based on intent. The user never needs to ask Grok 
 
 ---
 
+## Highest-Level Operating Practices (mandatory)
+
+1. **Automatic Impact Filter** – product-impact-architect runs early on almost every non-trivial idea.
+2. **Project Decision Log** – multi-session or architecturally significant projects maintain a short `DECISIONS.md` (see `/templates/DECISIONS.md`). Only durable decisions are recorded.
+3. **Light Retrospective** – after Release Gate, capture 1–3 short lessons. Improve the system when patterns appear.
+4. **Skill Hygiene** – keep the skill inventory clean. This file + CURRENT-SKILLS.md are authoritative.
+5. **Energy Allocation** – autonomy exists to free attention for deeper thinking, higher quality ambition and better product decisions.
+
+---
+
 ## Core Pipeline (Strict Order)
 
 ```
@@ -85,7 +95,7 @@ You should never need to request "use skill X" or "check the skill system". That
 
 | Repository | Role |
 |------------|------|
-| **[skill-system](https://github.com/eSuschi/skill-system)** | This system – pipeline, checklists, standards |
+| **[skill-system](https://github.com/eSuschi/skill-system)** | This system – pipeline, checklists, standards, decision templates |
 | [website-starters](https://github.com/eSuschi/website-starters) | Professional websites & landing pages |
 | [modular-engine](https://github.com/eSuschi/modular-engine) | Advanced modular 2D engine foundation |
 | [sable-engine](https://github.com/eSuschi/sable-engine) | Advanced Modular 2D Engine + Studio |
@@ -99,10 +109,10 @@ You should never need to request "use skill X" or "check the skill system". That
 
 1. Create a new repository (or use an existing domain one).
 2. Copy the relevant checklist from `/checklists`.
-3. Follow the stages in order.
-4. Use the handoff templates when moving between stages.
+3. Copy `/templates/DECISIONS.md` if the project will span sessions or have lasting architecture decisions.
+4. Follow the stages in order.
 5. Nothing ships without passing Release Gate.
 
 Detailed operating procedures live in the `/pipeline` and `/checklists` folders.
 
-*Maintained at the highest operational level. Skills and external sources activate automatically.*
+*Maintained at the highest operational level. Skills, tools and external sources activate automatically. Decision logs preserve context across sessions.*
