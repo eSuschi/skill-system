@@ -23,6 +23,7 @@ Skills activate automatically based on intent. The user should never need to ask
 ## Process & Gate Skills (auto-activated)
 - **requirements-clarifier** – activates by default on any underspecified creation request
 - **product-impact-architect** – first-principles impact and go/no-go (aligned with System Engine ambition bar)
+- **impact-hypothesis-tester** – designs cheap, falsifiable experiments to test core impact hypotheses before heavy implementation
 - **workflow-orchestrator** – automatically designs and runs the full multi-skill pipeline (explicitly sequences domain hardeners and the sharpened quality layer). Enforces System Engine ambition bar in Success Criterion.
 - **project-decision-logger** – maintains durable DECISIONS.md across sessions
 - **principal-code-review** – deep adversarial technical review (correctness, concurrency, resources, contracts)
@@ -30,6 +31,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **release-gate** – final PASS/FAIL decision + ambition enforcement (System Engine bar). Zero Critical/High. Optional System Engine Note after PASS on non-trivial work.
 - **recovery-resilience-orchestrator** – designs and injects recovery, resilience, session resurrection and graceful degradation
 - **adversarial-user-simulator** – generates realistic and adversarial user behaviour to stress-test products before release-gate
+- **zero-trust-security-hardener** – applies practical zero-trust principles, least privilege and secure defaults
 
 ## Domain Specialists
 
@@ -66,4 +68,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-15 (Batch 2). Added recovery-resilience-orchestrator and adversarial-user-simulator. Active skill count: 31.*
+*Last updated 2026-08-15 (Batch 3). Added zero-trust-security-hardener and impact-hypothesis-tester. Active skill count: 33.*
