@@ -53,6 +53,27 @@
 
 **Status:** accepted
 
+### 2026-08-15 – Sharpen Quality Layer Ownership
+**Decision:** Clarify and reduce overlap between the three quality skills:
+- **principal-code-review** owns deep adversarial technical review (correctness, concurrency, resources, contracts, maintainability).
+- **final-code-auditor** owns system-level audit + applying fixes (usefulness, e2e functionality, language purity, visual/UX, edge cases, basic security).
+- **release-gate** owns the final PASS/FAIL decision and ambition bar; it no longer re-does the full deep scan.
+
+Update workflow-orchestrator to sequence them as Deep Technical Review → System Audit + Fix → Release Decision. Make principal-code-review standard for non-trivial code.
+
+**Rationale:** 
+- final-code-auditor and release-gate were heavily covering each other on usefulness, language and visual checks. This diluted ownership and created redundant work.
+- principal-code-review was under-used (treated as optional).
+- Clearer separation makes the quality layer sharper, faster and more reliable while preserving full coverage.
+
+**Consequences / constraints:** 
+- Domain hardeners remain the first specialized line of defence.
+- Orchestrator sequencing is now more precise.
+- No loss of quality bar — only clearer responsibility.
+- Future changes to quality skills must respect these ownership boundaries.
+
+**Status:** accepted
+
 ---
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*

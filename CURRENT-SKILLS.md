@@ -16,11 +16,11 @@ Skills activate automatically based on intent. The user should never need to ask
 ## Process & Gate Skills (auto-activated)
 - **requirements-clarifier** – activates by default on any underspecified creation request
 - **product-impact-architect** – first-principles impact and go/no-go
-- **workflow-orchestrator** – automatically designs and runs the full multi-skill pipeline (explicitly sequences the domain hardeners)
+- **workflow-orchestrator** – automatically designs and runs the full multi-skill pipeline (explicitly sequences domain hardeners and the sharpened quality layer)
 - **project-decision-logger** – maintains durable DECISIONS.md across sessions
-- **principal-code-review** – rigorous adversarial code review
-- **final-code-auditor** – post-build full defect + language scan
-- **release-gate** – final mandatory ship-ready barrier (always before official delivery)
+- **principal-code-review** – deep adversarial technical review (correctness, concurrency, resources, contracts)
+- **final-code-auditor** – system-level audit + fixer (usefulness, language, visual, edge cases)
+- **release-gate** – final PASS/FAIL decision + ambition bar (zero Critical/High)
 
 ## Domain Specialists
 
@@ -57,4 +57,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-15. Added life-app-hardener to complete the domain hardener chain for life/mobile apps. Active skill count now 26. Complementary builder → hardener pattern fully applied across major domains. System coherence maintained.*
+*Last updated 2026-08-15. Quality layer ownership sharpened (principal-code-review / final-code-auditor / release-gate). Domain hardener chain complete. Active skill count 26. System coherence and reduced overlap improved.*
