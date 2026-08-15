@@ -10,8 +10,12 @@ Skills activate automatically based on intent. The user should never need to ask
 1. **Automatic Impact Filter** – Activate product-impact-architect early on almost every non-trivial product idea.
 2. **Project Decision Log** – For multi-session or architecturally significant projects, maintain a short `DECISIONS.md` (template in `/templates/DECISIONS.md`) in the project repository. Record only durable decisions. Supported by **project-decision-logger**.
 3. **Light Retrospective** – After Release Gate on non-trivial work, capture 1–3 short lessons. Update the system when patterns emerge.
-4. **Skill Hygiene** – Keep the skill set clean. Prefer this living inventory over any local leftovers. Remove obsolete or overlapping skills promptly.
+4. **Skill Hygiene** – Keep the skill set clean. Prefer this living inventory over any local leftovers. Remove obsolete or overlapping skills promptly. Long-term ownership of systemic hygiene and evolution belongs to **system-engine**.
 5. **Energy Allocation** – Autonomy frees attention for deeper first-principles thinking, higher ambition in quality, and better product decisions. Use it there.
+
+## Meta Layer
+
+- **system-engine** – Meta-engine of the entire skill system. Highest-level quality guardian and evolutionary force. Sits above workflow-orchestrator and all specialists. Deep inspection rights over skills and project outcomes. Proposes only; never acts without explicit user approval. Ambition bar: world-class, jaw-dropping results that would concern large studios.
 
 ## Process & Gate Skills (auto-activated)
 - **requirements-clarifier** – activates by default on any underspecified creation request
@@ -57,4 +61,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-15. Quality layer ownership sharpened (principal-code-review / final-code-auditor / release-gate). Domain hardener chain complete. Active skill count 26. System coherence and reduced overlap improved.*
+*Last updated 2026-08-15. System Engine added as meta-level quality and evolution skill. Active skill count 27.*
