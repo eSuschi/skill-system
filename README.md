@@ -1,52 +1,38 @@
 # Skill System
 
-Professional multi-skill development system.
+**Operational multi-skill development system for high-quality software.**
 
-This repository documents and organises a complete, orchestrated pipeline for building high-quality software, websites, applications and intelligent tools.
-
-It mirrors a real production-grade skill chain used for complex projects.
+This is not just documentation. It is the working operating system we use when building real projects together.
 
 ---
 
-## Core Pipeline
+## Core Pipeline (Strict Order)
 
 ```
-Requirements Clarifier
-        ↓
-Product Impact Architect
-        ↓
-Domain Specialists
-  • Advanced Website Expert
-  • Business Site Studio
-  • Browser Game Expert
-  • Principal Engine Architect
-  • Principal Life App Architect
-  • AI Meeting Buddy Builder
-  • Senior Software Engineer
-        ↓
-Principal Code Review
-        ↓
-Final Code Auditor
-        ↓
-Release Gate
+1. Requirements Clarifier
+2. Product Impact Architect
+3. Domain Specialist(s)
+4. Principal Code Review
+5. Final Code Auditor
+6. Release Gate
 ```
 
-Supporting layers:
-- Workflow Orchestrator (coordinates multi-skill work)
-- AI Opportunity Hunter / Skill Factory
-- Imagine Prompt Specialist
-- Recipe / Source Auditors and domain-specific tools
+Orchestration is handled by the Workflow Orchestrator layer.
+
+No stage is skipped on serious projects.
 
 ---
 
-## Philosophy
+## How We Work Together
 
-1. **Clarity before code** – incomplete briefs are clarified first.
-2. **Impact first** – only build what delivers real value.
-3. **Specialist depth** – each domain has a dedicated high-level skill.
-4. **Architecture discipline** – modular, maintainable, professional-grade structure.
-5. **Hard quality gates** – audit and release criteria are non-negotiable.
-6. **Orchestration** – complex projects are managed as explicit pipelines, not ad-hoc work.
+1. You describe the goal (even roughly).
+2. We run **Requirements Clarifier** until the brief is solid.
+3. **Product Impact Architect** validates whether it is worth building and how.
+4. The right Domain Specialist(s) execute the build.
+5. Code goes through **Principal Code Review** + **Final Code Auditor**.
+6. Only after **Release Gate** is the work considered ship-ready.
+
+GitHub is the single source of truth. All meaningful code, decisions and history live here.
 
 ---
 
@@ -54,16 +40,21 @@ Supporting layers:
 
 | Repository | Role |
 |------------|------|
+| **[skill-system](https://github.com/eSuschi/skill-system)** | This system – pipeline, checklists, standards |
 | [website-starters](https://github.com/eSuschi/website-starters) | Professional websites & landing pages |
-| [app-boilerplates](https://github.com/eSuschi/app-boilerplates) | Application and system starters |
-| [modular-engine](https://github.com/eSuschi/modular-engine) | Advanced modular 2D engine foundation |
+| [modular-engine](https://github.com/eSuschi/modular-engine) | Advanced modular 2D engine |
 | [ai-meeting-buddy](https://github.com/eSuschi/ai-meeting-buddy) | Local AI presentation co-pilot |
-| [project-templates](https://github.com/eSuschi/project-templates) | Shared standards, CI and conventions |
-
-This system grows as real projects are delivered.
+| [app-boilerplates](https://github.com/eSuschi/app-boilerplates) | Application & system starters |
+| [project-templates](https://github.com/eSuschi/project-templates) | Shared CI, templates, conventions |
 
 ---
 
-## Status
+## Quick Start for a New Project
 
-Active foundation. New domain modules and concrete implementations are added continuously.
+1. Create a new repository (or use an existing domain one).
+2. Copy the relevant checklist from `/checklists`.
+3. Follow the stages in order.
+4. Use the handoff templates when moving between stages.
+5. Nothing ships without passing Release Gate.
+
+Detailed operating procedures live in the `/pipeline` and `/checklists` folders.
