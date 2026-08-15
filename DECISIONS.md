@@ -21,6 +21,22 @@
 
 **Status:** accepted
 
+### 2026-08-15 – Skill Hygiene Cleanup
+**Decision:** Permanently remove the three deprecated skills (`senior-browser`, `senior-coding`, `disabled`) from the local skill set and from the authoritative inventory.
+
+**Rationale:** 
+- They had already been marked as deprecated and redirected.
+- Leaving them in the Skills tab created unnecessary noise and potential confusion.
+- Active complementary chains (builders → hardeners) remain intact and do not conflict.
+- Cleaner inventory improves long-term maintainability and automatic activation accuracy.
+
+**Consequences / constraints:** 
+- Skill count reduced to 25 active skills.
+- No functionality lost.
+- Future hygiene: remove obsolete skills promptly rather than leave permanent redirects.
+
+**Status:** accepted
+
 ---
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*

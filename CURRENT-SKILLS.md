@@ -10,13 +10,13 @@ Skills activate automatically based on intent. The user should never need to ask
 1. **Automatic Impact Filter** – Activate product-impact-architect early on almost every non-trivial product idea.
 2. **Project Decision Log** – For multi-session or architecturally significant projects, maintain a short `DECISIONS.md` (template in `/templates/DECISIONS.md`) in the project repository. Record only durable decisions. Supported by **project-decision-logger**.
 3. **Light Retrospective** – After Release Gate on non-trivial work, capture 1–3 short lessons. Update the system when patterns emerge.
-4. **Skill Hygiene** – Keep the skill set clean. Prefer this living inventory over any local leftovers.
+4. **Skill Hygiene** – Keep the skill set clean. Prefer this living inventory over any local leftovers. Remove obsolete or overlapping skills promptly.
 5. **Energy Allocation** – Autonomy frees attention for deeper first-principles thinking, higher ambition in quality, and better product decisions. Use it there.
 
 ## Process & Gate Skills (auto-activated)
 - **requirements-clarifier** – activates by default on any underspecified creation request
 - **product-impact-architect** – first-principles impact and go/no-go
-- **workflow-orchestrator** – automatically designs and runs the full multi-skill pipeline (now explicitly sequences the domain hardeners)
+- **workflow-orchestrator** – automatically designs and runs the full multi-skill pipeline (explicitly sequences the domain hardeners)
 - **project-decision-logger** – maintains durable DECISIONS.md across sessions
 - **principal-code-review** – rigorous adversarial code review
 - **final-code-auditor** – post-build full defect + language scan
@@ -52,11 +52,8 @@ Skills activate automatically based on intent. The user should never need to ask
 - **ai-problem-investigator** – rigorous root-cause analysis
 - **imagine-prompt-specialist** – high-quality Grok Imagine prompt engineering
 - **machine-fault-logger** – offline-first machine repair session tracker
-
-## Deprecated (redirect only)
-- senior-browser → browser-game-expert
-- senior-coding → senior-software-engineer
+- **recipe-source-auditor** – recipe verification against trusted sources
 
 ---
 
-*Last updated 2026-08-15. workflow-orchestrator now explicitly sequences live-presentation-hardener, conversion-website-auditor, engine-ai-native-layer and project-decision-logger. System coherence and quality gates improved. Skills, tools and external sources activate automatically.*
+*Last updated 2026-08-15. Removed permanently deprecated skills (senior-browser, senior-coding, disabled). Skill set cleaned to 25 active skills. No overlapping responsibilities remain. Complementary chains (builders → hardeners) preserved. System coherence and hygiene improved.*
