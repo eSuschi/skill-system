@@ -8,7 +8,7 @@ Skills activate automatically based on intent. The user should never need to ask
 ## Highest-Level Operating Practices (mandatory)
 
 1. **Automatic Impact Filter** – Activate product-impact-architect early on almost every non-trivial product idea.
-2. **Project Decision Log** – For multi-session or architecturally significant projects, maintain a short `DECISIONS.md` (template in `/templates/DECISIONS.md`) in the project repository. Record only durable decisions.
+2. **Project Decision Log** – For multi-session or architecturally significant projects, maintain a short `DECISIONS.md` (template in `/templates/DECISIONS.md`) in the project repository. Record only durable decisions. Supported by **project-decision-logger**.
 3. **Light Retrospective** – After Release Gate on non-trivial work, capture 1–3 short lessons. Update the system when patterns emerge.
 4. **Skill Hygiene** – Keep the skill set clean. Prefer this living inventory over any local leftovers.
 5. **Energy Allocation** – Autonomy frees attention for deeper first-principles thinking, higher ambition in quality, and better product decisions. Use it there.
@@ -17,6 +17,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **requirements-clarifier** – activates by default on any underspecified creation request
 - **product-impact-architect** – first-principles impact and go/no-go
 - **workflow-orchestrator** – automatically designs and runs the full multi-skill pipeline
+- **project-decision-logger** – maintains durable DECISIONS.md across sessions
 - **principal-code-review** – rigorous adversarial code review
 - **final-code-auditor** – post-build full defect + language scan
 - **release-gate** – final mandatory ship-ready barrier (always before official delivery)
@@ -40,6 +41,7 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ### Engines & Interactive
 - **principal-engine-architect** – advanced modular 2D engines
+- **engine-ai-native-layer** – AI-native control surfaces, declarative layers and agent interfaces for modular engines
 - **browser-game-expert** – complete playable browser games (shareable by URL)
 
 ### Mobile / Life Impact
@@ -57,4 +59,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-15. Added live-presentation-hardener and conversion-website-auditor. Skills, tools and external sources activate automatically. Decision logs preserve context across sessions.*
+*Last updated 2026-08-15. Added engine-ai-native-layer and project-decision-logger. Skills, tools and external sources activate automatically. Decision logs preserve context across sessions.*
