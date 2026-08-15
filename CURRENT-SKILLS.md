@@ -2,13 +2,16 @@
 
 This file is the authoritative inventory of active skills used in the operating system.
 
-## Process & Gate Skills
-- **requirements-clarifier** – mandatory clarification before creation
+**Core operating principle:**  
+Skills activate automatically based on intent. The user should never need to ask Grok to "run skill X". The same applies to external sources (GitHub, web search, etc.). Grok selects and sequences the right specialists and tools proactively at the highest professional level.
+
+## Process & Gate Skills (auto-activated)
+- **requirements-clarifier** – activates by default on any underspecified creation request
 - **product-impact-architect** – first-principles impact and go/no-go
-- **workflow-orchestrator** – multi-skill pipeline conductor
+- **workflow-orchestrator** – automatically designs and runs the full multi-skill pipeline
 - **principal-code-review** – rigorous adversarial code review
 - **final-code-auditor** – post-build full defect + language scan
-- **release-gate** – final mandatory ship-ready barrier
+- **release-gate** – final mandatory ship-ready barrier (always before official delivery)
 
 ## Domain Specialists
 
@@ -44,4 +47,4 @@ This file is the authoritative inventory of active skills used in the operating 
 
 ---
 
-*Last updated to maximum operational level. Use this list when selecting specialists.*
+*Last updated to maximum operational level. Skills and external sources (GitHub, web) are used automatically.*
