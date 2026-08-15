@@ -4,6 +4,8 @@
 
 This is not just documentation. It is the working operating system we use when building real projects together.
 
+GitHub is the single source of truth. All meaningful decisions, architecture and history live here.
+
 ---
 
 ## Core Pipeline (Strict Order)
@@ -17,9 +19,49 @@ This is not just documentation. It is the working operating system we use when b
 6. Release Gate
 ```
 
-Orchestration is handled by the Workflow Orchestrator layer.
+Orchestration is handled by the **Workflow Orchestrator**.
 
 No stage is skipped on serious projects.
+
+---
+
+## Domain Specialists (Current Highest-Level Set)
+
+### Product & Impact
+- **product-impact-architect** – first-principles evaluation, go/no-go, high-leverage product definition
+- **principal-life-app-architect** – life-improving mobile apps (strong product judgment + architecture)
+
+### Websites & Studio
+- **advanced-website-expert** – professional business / conversion / SaaS websites
+- **business-site-studio** – the Studio product itself (process, generation engine, quality)
+
+### Software Engineering
+- **senior-software-engineer** – full lifecycle, architecture, production-ready implementation
+- **principal-code-review** – rigorous adversarial review (correctness, races, leaks, contracts)
+- **final-code-auditor** – post-build full-system defect scan + language purity
+- **release-gate** – mandatory final ship-ready barrier
+
+### Desktop & Office
+- **ai-meeting-buddy-builder** – specialized local Windows Meeting Buddy (voice Excel/PowerPoint, large-screen presentations)
+- **microsoft-office-companion-builder** – broader local Windows companions for intelligent control of Word, Excel, PowerPoint, Outlook
+- **microsoft-office-word-expert** – professional document engineering (content, formatting, OOXML)
+- **live-presentation-orchestrator** – hands-free presentation sessions on large screens
+
+### Engines & Games
+- **principal-engine-architect** – advanced modular 2D engines, professional architecture
+- **browser-game-expert** – complete playable browser games (shareable by URL)
+
+### Other High-Precision
+- **ai-opportunity-hunter** – opportunity discovery + Skill Factory with quality gate
+- **ai-problem-investigator** – rigorous root-cause analysis
+- **imagine-prompt-specialist** – cinematic / high-quality Grok Imagine prompt engineering
+- **machine-fault-logger** – specific offline-first repair session tracker
+- **requirements-clarifier** – mandatory front-end clarification before creation
+- **workflow-orchestrator** – multi-skill pipeline conductor
+
+Deprecated stubs (redirect only):
+- senior-browser → browser-game-expert
+- senior-coding → senior-software-engineer
 
 ---
 
@@ -32,8 +74,6 @@ No stage is skipped on serious projects.
 5. Code goes through **Principal Code Review** + **Final Code Auditor**.
 6. Only after **Release Gate** is the work considered ship-ready.
 
-GitHub is the single source of truth. All meaningful code, decisions and history live here.
-
 ---
 
 ## Repository Map
@@ -42,7 +82,8 @@ GitHub is the single source of truth. All meaningful code, decisions and history
 |------------|------|
 | **[skill-system](https://github.com/eSuschi/skill-system)** | This system – pipeline, checklists, standards |
 | [website-starters](https://github.com/eSuschi/website-starters) | Professional websites & landing pages |
-| [modular-engine](https://github.com/eSuschi/modular-engine) | Advanced modular 2D engine |
+| [modular-engine](https://github.com/eSuschi/modular-engine) | Advanced modular 2D engine foundation |
+| [sable-engine](https://github.com/eSuschi/sable-engine) | Advanced Modular 2D Engine + Studio |
 | [ai-meeting-buddy](https://github.com/eSuschi/ai-meeting-buddy) | Local AI presentation co-pilot |
 | [app-boilerplates](https://github.com/eSuschi/app-boilerplates) | Application & system starters |
 | [project-templates](https://github.com/eSuschi/project-templates) | Shared CI, templates, conventions |
@@ -58,3 +99,5 @@ GitHub is the single source of truth. All meaningful code, decisions and history
 5. Nothing ships without passing Release Gate.
 
 Detailed operating procedures live in the `/pipeline` and `/checklists` folders.
+
+*Maintained at the highest operational level.*
