@@ -6,6 +6,9 @@ This is not just documentation. It is the working operating system we use when b
 
 GitHub is the single source of truth. All meaningful decisions, architecture and history live here.
 
+**Core operating principle (highest level):**  
+Skills activate automatically based on intent. The user never needs to ask Grok to "run skill X" or "check GitHub". Grok selects the correct specialists, sequences the pipeline, and uses external sources (GitHub, web, etc.) proactively.
+
 ---
 
 ## Core Pipeline (Strict Order)
@@ -68,11 +71,13 @@ Deprecated stubs (redirect only):
 ## How We Work Together
 
 1. You describe the goal (even roughly).
-2. We run **Requirements Clarifier** until the brief is solid.
+2. Grok automatically activates **Requirements Clarifier** if needed.
 3. **Product Impact Architect** validates whether it is worth building and how.
-4. The right Domain Specialist(s) execute the build.
+4. The right Domain Specialist(s) are selected and executed automatically.
 5. Code goes through **Principal Code Review** + **Final Code Auditor**.
 6. Only after **Release Gate** is the work considered ship-ready.
+
+You should never need to request "use skill X" or "check the skill system". That is handled at the highest professional level.
 
 ---
 
@@ -100,4 +105,4 @@ Deprecated stubs (redirect only):
 
 Detailed operating procedures live in the `/pipeline` and `/checklists` folders.
 
-*Maintained at the highest operational level.*
+*Maintained at the highest operational level. Skills and external sources activate automatically.*
