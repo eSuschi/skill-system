@@ -6,6 +6,26 @@
 
 ## Decision Log
 
+### 2026-08-15 – System Learning Core (Cumulative Operational Memory)
+**Decision:**  
+Introduce **system-learning-core** as a new Meta Layer skill.  
+It maintains a persistent, high-signal knowledge base (`knowledge/` in this repository) of durable lessons, patterns and risks learned from real projects and decisions.  
+It surfaces relevant knowledge to support project creation and other skills, and captures new lessons after non-trivial outcomes.  
+It is explicitly designed as non-disruptive: it never owns a pipeline stage, never changes ownership or sequencing of other skills, and operates under the “help or stay silent” rule.
+
+**Rationale:**  
+User requested a skill that behaves like an internal AI which learns and helps both project creation and other skills. Existing mechanisms (skill-evolution-engine, scheduled retrospective collector, Light Retrospective notes) were either focused on evolving the skills themselves or were passive/scheduled. A dedicated, always-available operational memory layer closes the gap while fully respecting the Quality Constitution (especially Art. 5 Learning is Mandatory and Art. 4 Contracts).  
+The skill was written with strict non-interference rules so that the Standard Pipeline and ownership boundaries remain intact.
+
+**Implementation notes:**  
+- Local skill created: `system-learning-core`
+- Knowledge store initialized under `knowledge/` (LESSONS.md, PATTERNS.md, RISKS-AND-ANTI-PATTERNS.md + README)
+- CURRENT-SKILLS.md updated (Meta Layer, count → 39)
+- workflow-orchestrator lightly updated: optional early surfacing + explicit feed of durable lessons in the retrospective step
+- No mandatory new stage added to the pipeline
+
+**Status:** accepted + fully executed under user free-hand authority for coherent, non-destructive improvements
+
 ### 2026-08-15 – Quality Constitution + Multi-Level System Elevation (System Engine execution)
 **Decision:**  
 Under explicit full free-hand authority from the user, System Engine executed a multi-level jump:
@@ -97,5 +117,5 @@ The system had grown to 38 skills with strong individual components and a qualit
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
 
-**Final state after Quality Constitution elevation (2026-08-15 late):**  
-Active skills: 38. Quality Constitution is now law. Ambition bar, contracts, hygiene and learning are structurally enforced. System Engine operates under the Constitution with free-hand capability only when explicitly granted.
+**Final state after system-learning-core (2026-08-15 late evening):**  
+Active skills: 39. system-learning-core live in Meta Layer. Knowledge base initialized. Pipeline remains intact and non-disrupted. Quality Constitution fully respected.
