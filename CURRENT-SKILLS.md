@@ -29,12 +29,14 @@ Skills activate automatically based on intent. The user should never need to ask
 ### Websites
 - **advanced-website-expert** – professional business / conversion / SaaS sites
 - **business-site-studio** – the Studio product (process + generation engine)
+- **conversion-website-auditor** – post-generation CRO audit, differentiation, proof and conversion hardening
 
 ### Desktop & Microsoft Office
 - **ai-meeting-buddy-builder** – specialized Meeting Buddy (Excel + PowerPoint, large-screen, voice)
 - **microsoft-office-companion-builder** – broader Office suite companions (Word, Excel, PowerPoint, Outlook)
 - **microsoft-office-word-expert** – professional document content & formatting engineering
 - **live-presentation-orchestrator** – hands-free presentation orchestration
+- **live-presentation-hardener** – production hardening of Meeting Buddy / Office companions (latency, COM stability, recovery, large-screen readiness)
 
 ### Engines & Interactive
 - **principal-engine-architect** – advanced modular 2D engines
@@ -55,4 +57,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated to maximum operational level. Skills, tools and external sources activate automatically. Decision logs preserve context across sessions.*
+*Last updated 2026-08-15. Added live-presentation-hardener and conversion-website-auditor. Skills, tools and external sources activate automatically. Decision logs preserve context across sessions.*
