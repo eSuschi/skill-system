@@ -25,6 +25,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **skill-evolution-engine** – Long-term self-improvement loop under System Engine oversight.
 - **system-learning-core** – Cumulative operational memory of the system. Learns durable lessons, patterns and risks from real projects and surfaces them to help project creation and other skills. Non-disruptive. Complements skill-evolution-engine.
 - **decision-scorer** – Lightweight 0–100 evaluation of decisions and proposals.
+- **optimal-decision-engine** – Rigorous multi-option decision engine. Deep clarification loop + primary recommendation + two strong alternatives + scores, confidence, pros/cons and data-driven ranking for business, logistics, operations, project and high-stakes choices. Complements decision-scorer for full analysis.
 
 ## Process & Gate Skills (auto-activated)
 - **requirements-clarifier**
@@ -79,4 +80,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-15 late evening. Added system-learning-core. Active skill count: 39.*
+*Last updated 2026-08-16. Added optimal-decision-engine. Active skill count: 40.*
