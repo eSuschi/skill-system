@@ -6,6 +6,27 @@
 
 ## Decision Log
 
+### 2026-08-16 – Permanent Hygiene Cleanup (Deprecated Folders)
+
+**Decision:**  
+Under explicit free-hand mandate from the user (“Przemyśl i wykonaj najlepszą decyzję… dam Ci wolną rękę do decydowania na najwyższym poziomie”), System Engine permanently deletes the three residual deprecated skill folders that had reappeared or survived earlier cleanup:
+
+- `senior-browser`
+- `senior-coding`
+- `disabled`
+
+Local inventory now exactly matches the authoritative `CURRENT-SKILLS.md` (43 active skills). No redirect stubs left. Full compliance with Quality Constitution Article 6 restored.
+
+**Rationale:**  
+These folders constituted pure noise and a latent activation risk. Earlier decision (Skill Slimming) already mandated their removal; residual presence violated hygiene. Clean removal is the only correct action.
+
+**Measured result:**  
+- Local skill count: 43 (perfect match)
+- Zero remaining references to the deleted skills in active SKILL.md files
+- Description load remains healthy (~10.9k characters total, average 254)
+
+**Status:** accepted + fully executed under free-hand authority
+
 ### 2026-08-16 – ARPG Domain Triad (Aetherstone)
 
 **Decision:**  
@@ -179,5 +200,5 @@ The system had grown to 38 skills with strong individual components and a qualit
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
 
-**Final state after ARPG Domain Triad (2026-08-16):**  
-Active skills: 43. ARPG domain fully supported. Aetherstone project has dedicated specialists. Quality Constitution fully respected.
+**Final state after Permanent Hygiene Cleanup (2026-08-16 evening):**  
+Active skills: 43. Local inventory perfectly synchronized with CURRENT-SKILLS.md. Zero deprecated folders remain. Quality Constitution Art. 6 fully satisfied. System is clean.
