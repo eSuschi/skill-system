@@ -64,6 +64,11 @@ Skills activate automatically based on intent. The user should never need to ask
 - **browser-game-expert**
 - **interactive-experience-architect**
 
+### Action RPG / Isometric ARPG (Aetherstone domain)
+- **arpg-combat-feel-architect** – combat systems, hit feedback, skill expression, targeting and overall combat feel
+- **arpg-loot-progression-architect** – item upgrade (+9 risk systems), crafting, bonuses, class builds and long-term progression curves
+- **arpg-content-tools-architect** – content pipeline, editors, data-driven tools and studio features
+
 ### Mobile / Life Impact
 - **principal-life-app-architect**
 - **life-app-hardener**
@@ -80,4 +85,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-16. Added optimal-decision-engine. Active skill count: 40.*
+*Last updated 2026-08-16. Added ARPG domain triad (combat-feel, loot-progression, content-tools) for Aetherstone. Active skill count: 43.*
