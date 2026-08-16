@@ -6,6 +6,24 @@
 
 ## Decision Log
 
+### 2026-08-16 – Optimal Decision Engine (Rigorous Multi-Option Decision Skill)
+**Decision:**  
+Create and adopt **optimal-decision-engine** as a new high-impact skill in the Meta Layer (alongside decision-scorer).  
+It performs deep clarification of underspecified decisions, gathers relevant data (including external sources), generates one primary recommendation + exactly two strong alternatives, scores them 0–100 with confidence levels, and surfaces pros/cons, risks and next actions.  
+Primary domains: business decisions, logistics/warehouse/production processes, budget-constrained purchases, and project/technical direction choices.  
+Designed to complement (not replace) the lightweight decision-scorer. Explicitly hands off pure quick scores and pure root-cause work to the appropriate existing skills.
+
+**Rationale:**  
+User identified a clear gap: a “monster” skill that forces clarity on fuzzy decision problems (especially operational and high-stakes ones), always returns ranked options with transparent reasoning, and can be used both by the user and by Grok during project work. Existing decision-scorer is intentionally lightweight; this skill fills the deep-analysis niche while preserving clean contracts.
+
+**Implementation notes:**  
+- Local skill created and validated: `/home/workdir/.grok/skills/optimal-decision-engine/` (SKILL.md + domain references for logistics-ops, purchase-decisions, project-technical)
+- CURRENT-SKILLS.md updated (Meta Layer, count → 40)
+- Tested successfully on a real car-purchase decision under tight constraints
+- No pipeline stage added; skill activates on intent
+
+**Status:** accepted + fully executed
+
 ### 2026-08-15 – System Learning Core (Cumulative Operational Memory)
 **Decision:**  
 Introduce **system-learning-core** as a new Meta Layer skill.  
@@ -117,5 +135,5 @@ The system had grown to 38 skills with strong individual components and a qualit
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
 
-**Final state after system-learning-core (2026-08-15 late evening):**  
-Active skills: 39. system-learning-core live in Meta Layer. Knowledge base initialized. Pipeline remains intact and non-disrupted. Quality Constitution fully respected.
+**Final state after optimal-decision-engine (2026-08-16):**  
+Active skills: 40. optimal-decision-engine live in Meta Layer. Local skill fully validated and tested. Quality Constitution fully respected.
