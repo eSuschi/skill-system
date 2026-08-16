@@ -6,6 +6,27 @@
 
 ## Decision Log
 
+### 2026-08-16 – Reasoning Depth Enforcer (Meta Layer)
+
+**Decision:**  
+Create and adopt **reasoning-depth-enforcer** as a new non-disruptive Meta Layer skill.
+
+It forces deeper multi-step first-principles reasoning, proactive activation of full relevant skill chains, and mathematically scored decision-making (via decision-scorer / optimal-decision-engine) during complex builds and projects. It systematically minimises low-value clarifying questions by first raising confidence through tools, logic and specialists.
+
+Key design constraints (mirroring system-learning-core):
+- Never owns a pipeline stage
+- Never changes ownership or sequencing of other skills
+- Activates automatically on complex / Build / multi-skill intents
+- Elevates quality of reasoning and autonomy *inside* existing processes
+
+Local skill created and validated at `/home/workdir/.grok/skills/reasoning-depth-enforcer/`.  
+CURRENT-SKILLS.md updated (Meta Layer). Active skill count → 44.
+
+**Rationale:**  
+User reported recurring frustration: during Build phases thinking sometimes lasts only ~2 minutes with minor results, and the system asks too frequently instead of deciding at the mathematically / logically best level. Existing optimal-decision-engine and workflow-orchestrator provide the tools, but lacked a dedicated layer that actively raises the depth floor and autonomy bias. This skill closes that gap while fully respecting Quality Constitution Articles 4, 7 and 8.
+
+**Status:** accepted + fully executed under user preference for autonomous coherence/quality improvements
+
 ### 2026-08-16 – Permanent Hygiene Cleanup (Deprecated Folders)
 
 **Decision:**  
@@ -200,5 +221,5 @@ The system had grown to 38 skills with strong individual components and a qualit
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
 
-**Final state after Permanent Hygiene Cleanup (2026-08-16 evening):**  
-Active skills: 43. Local inventory perfectly synchronized with CURRENT-SKILLS.md. Zero deprecated folders remain. Quality Constitution Art. 6 fully satisfied. System is clean.
+**Final state after Reasoning Depth Enforcer (2026-08-16):**  
+Active skills: 44. reasoning-depth-enforcer added to Meta Layer. System remains clean and non-interfering by design.
