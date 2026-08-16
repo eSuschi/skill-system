@@ -6,6 +6,24 @@
 
 ## Decision Log
 
+### 2026-08-16 – ARPG Domain Triad (Aetherstone)
+
+**Decision:**  
+Create and fully integrate three new domain specialists for Action RPG / isometric ARPG / Metin2-Diablo style projects:
+
+- `arpg-combat-feel-architect` — combat systems, hit feedback, skill expression, targeting, game feel
+- `arpg-loot-progression-architect` — +9 upgrade systems with risk, crafting, bonuses, class builds, progression curves
+- `arpg-content-tools-architect` — content pipeline, editors, data-driven tools, studio features
+
+Update `workflow-orchestrator` so that any project matching this domain is automatically routed through **principal-engine-architect** + the three ARPG specialists.  
+Register the triad in CURRENT-SKILLS.md.  
+Active skill count → 43.
+
+**Rationale:**  
+Aetherstone (and future similar projects) require specialised, high-precision ownership of the exact systems that define quality in this genre (combat feel, loot/progression, content tools). Existing engine and software skills were too general. The triad gives clean contracts and automatic activation without polluting other domains.
+
+**Status:** accepted + fully executed under free-hand authority
+
 ### 2026-08-16 – Skill Slimming (Token Density without Capability Loss)
 
 **Decision:**  
@@ -161,5 +179,5 @@ The system had grown to 38 skills with strong individual components and a qualit
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
 
-**Final state after Skill Slimming (2026-08-16):**  
-Active skills: 40. Description token tax reduced by 55.5%. Deprecated folders fully removed. Quality Constitution fully respected. System remains at maximum capability with lower permanent cost.
+**Final state after ARPG Domain Triad (2026-08-16):**  
+Active skills: 43. ARPG domain fully supported. Aetherstone project has dedicated specialists. Quality Constitution fully respected.
