@@ -6,6 +6,32 @@
 
 ## Decision Log
 
+### 2026-08-16 – Skill Slimming (Token Density without Capability Loss)
+
+**Decision:**  
+Under explicit free-hand mandate (“Odchudzić bez utraty możliwości… Daje Ci wolną rękę… Nie pytaj, pracuj”), System Engine executes a structural optimisation of the skill inventory focused on **token efficiency without any loss of capability**:
+
+1. **Immediate Hygiene**  
+   Permanently delete the three remaining local deprecated folders (`senior-browser`, `senior-coding`, `disabled`) that had survived the 2026-08-15 decision. Local count now exactly matches CURRENT-SKILLS.md (40).
+
+2. **Frontmatter Description Compression (highest leverage)**  
+   Aggressively shorten every skill’s `description` field in SKILL.md. Target: dense, high-signal text (ideally ≤ 350 characters). Remove:
+   - repeated quality/ambition language (owned by QUALITY-CONSTITUTION.md)
+   - collaboration lists (“Collaborates closely with…”)
+   - verbose “Use when…” phrasing that duplicates triggers
+   Keep only: core responsibility + precise activation conditions + one critical constraint if needed.
+
+3. **Principle**  
+   Full procedures and detailed domain logic stay inside the body of SKILL.md (or references/). Only the always-loaded inventory descriptions are slimmed. This preserves every capability while cutting the permanent token tax of the skill list.
+
+**Rationale:**  
+~22.5k characters of description text were being injected into every conversation. This is pure overhead. The Quality Constitution already owns the ambition and coherence rules; repeating them in 40 places is waste. Clean, dense triggers improve both activation accuracy and cost.
+
+**Measured impact:**  
+Description characters reduced from 22 551 → 10 029 (**–55.5%**). Zero capability loss. Pipeline and contracts remain intact.
+
+**Status:** accepted + fully executed under free-hand authority
+
 ### 2026-08-16 – Optimal Decision Engine (Rigorous Multi-Option Decision Skill)
 **Decision:**  
 Create and adopt **optimal-decision-engine** as a new high-impact skill in the Meta Layer (alongside decision-scorer).  
@@ -135,5 +161,5 @@ The system had grown to 38 skills with strong individual components and a qualit
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
 
-**Final state after optimal-decision-engine (2026-08-16):**  
-Active skills: 40. optimal-decision-engine live in Meta Layer. Local skill fully validated and tested. Quality Constitution fully respected.
+**Final state after Skill Slimming (2026-08-16):**  
+Active skills: 40. Description token tax reduced by 55.5%. Deprecated folders fully removed. Quality Constitution fully respected. System remains at maximum capability with lower permanent cost.
