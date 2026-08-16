@@ -26,6 +26,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **system-learning-core** – Cumulative operational memory of the system. Learns durable lessons, patterns and risks from real projects and surfaces them to help project creation and other skills. Non-disruptive. Complements skill-evolution-engine.
 - **decision-scorer** – Lightweight 0–100 evaluation of decisions and proposals.
 - **optimal-decision-engine** – Rigorous multi-option decision engine. Deep clarification loop + primary recommendation + two strong alternatives + scores, confidence, pros/cons and data-driven ranking for business, logistics, operations, project and high-stakes choices. Complements decision-scorer for full analysis.
+- **reasoning-depth-enforcer** – Forces deeper multi-step first-principles reasoning, proactive multi-skill activation and mathematically scored decisions during complex builds and projects. Minimises low-value clarifying questions by raising confidence through tools, logic and optimal-decision-engine first. Non-disruptive Meta Layer skill.
 
 ## Process & Gate Skills (auto-activated)
 - **requirements-clarifier**
@@ -85,4 +86,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-16. Added ARPG domain triad (combat-feel, loot-progression, content-tools) for Aetherstone. Active skill count: 43.*
+*Last updated 2026-08-16. Added reasoning-depth-enforcer (Meta Layer) to raise reasoning depth, multi-skill usage and scored decision quality during builds. Active skill count: 44.*
