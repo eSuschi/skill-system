@@ -36,7 +36,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **project-decision-logger**
 - **principal-code-review**
 - **final-code-auditor** – prepares work for Constitution-level quality (includes Top-senior delta)
-- **release-gate** – final PASS/FAIL against the Quality Constitution (especially Art. 1–3) + mandatory comparative ambition note
+- **release-gate** – final PASS/FAIL against the Quality Constitution (especially Art. 1–3) + mandatory comparative ambition note. Triggers post-ship-learning-injector on non-trivial PASS.
 - **post-ship-learning-injector** – mandatory structured learning after non-trivial PASS (Art. 5)
 - **failure-mode-anticipator** – anticipates realistic 3–6 month degradation before final audit
 - **cross-domain-consistency-enforcer** – level-matches quality across multiple domains
@@ -85,8 +85,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **ai-opportunity-hunter**
 - **ai-problem-investigator**
 - **machine-fault-logger** (niche / low priority relative to current portfolio)
-- **recipe-source-auditor** (niche / low priority relative to current portfolio)
 
 ---
 
-*Last updated 2026-08-17. Added post-ship-learning-injector, cross-domain-consistency-enforcer, failure-mode-anticipator. Tightened release-gate (comparative ambition note), final-code-auditor (Top-senior delta), workflow-orchestrator and reasoning-depth-enforcer. Active skill count: 47.*
+*Last updated 2026-08-17 (evening). Hygiene pass: removed missing recipe-source-auditor (folder never present locally). Active skill count corrected to 46. release-gate description updated to reflect comparative ambition + learning trigger. System clean and coherent.*
