@@ -55,7 +55,7 @@ Skills activate automatically based on intent. The user should never need to ask
 ### Desktop & Microsoft Office
 - **ai-meeting-buddy-builder**
 - **microsoft-office-companion-builder**
-- **microsoft-office-word-expert**
+- **microsoft-office-word-expert** – professional Word document engineering (primary) + strong Excel competence for data tables, reports and automation (secondary). Leaner after 2026-08-17 densification.
 - **live-presentation-orchestrator**
 - **live-presentation-hardener**
 
@@ -63,12 +63,12 @@ Skills activate automatically based on intent. The user should never need to ask
 - **principal-engine-architect**
 - **engine-ai-native-layer**
 - **browser-game-expert**
-- **interactive-experience-architect** – first-class owner of deep, stateful interactive experiences, flow, feedback, emotional arcs and moments of delight for engines, showrooms, configurators, browser games and life apps
+- **interactive-experience-architect** – first-class owner of deep, stateful interactive experiences, flow, feedback, emotional arcs and moments of delight
 
 ### Action RPG / Isometric ARPG (Aetherstone domain)
-- **arpg-combat-feel-architect** – combat systems, hit feedback, skill expression, targeting and overall combat feel
-- **arpg-loot-progression-architect** – item upgrade (+9 risk systems), crafting, bonuses, class builds and long-term progression curves
-- **arpg-content-tools-architect** – content pipeline, editors, data-driven tools and studio features
+- **arpg-combat-feel-architect**
+- **arpg-loot-progression-architect**
+- **arpg-content-tools-architect**
 
 ### Mobile / Life Impact
 - **principal-life-app-architect**
@@ -81,9 +81,9 @@ Skills activate automatically based on intent. The user should never need to ask
 ### Other Precision Skills
 - **ai-opportunity-hunter**
 - **ai-problem-investigator**
-- **machine-fault-logger**
-- **recipe-source-auditor**
+- **machine-fault-logger** (niche / low priority relative to current portfolio)
+- **recipe-source-auditor** (niche / low priority relative to current portfolio)
 
 ---
 
-*Last updated 2026-08-17. interactive-experience-architect elevated from thin “involve” skill to first-class specialist with clear ownership of interaction quality. Pipeline and browser-game-expert collaboration updated. Active skill count: 44.*
+*Last updated 2026-08-17. microsoft-office-word-expert densified (−58%) and rebalanced toward stronger Excel secondary. interactive-experience-architect elevated earlier same day. Usefulness scan noted two niche skills. Active skill count: 44.*
