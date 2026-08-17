@@ -63,7 +63,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **principal-engine-architect**
 - **engine-ai-native-layer**
 - **browser-game-expert**
-- **interactive-experience-architect**
+- **interactive-experience-architect** – first-class owner of deep, stateful interactive experiences, flow, feedback, emotional arcs and moments of delight for engines, showrooms, configurators, browser games and life apps
 
 ### Action RPG / Isometric ARPG (Aetherstone domain)
 - **arpg-combat-feel-architect** – combat systems, hit feedback, skill expression, targeting and overall combat feel
@@ -86,4 +86,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-17. High-density compression of the five heaviest skills (system-engine, workflow-orchestrator, senior-software-engineer, ai-opportunity-hunter, ai-problem-investigator) while preserving 100% operational power and raising signal density. system-engine elevated to explicit Brain of the Operation. Active skill count: 44.*
+*Last updated 2026-08-17. interactive-experience-architect elevated from thin “involve” skill to first-class specialist with clear ownership of interaction quality. Pipeline and browser-game-expert collaboration updated. Active skill count: 44.*
