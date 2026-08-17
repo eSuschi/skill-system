@@ -6,6 +6,31 @@
 
 ## Decision Log
 
+### 2026-08-17 – Ambition Tightening + Three High-Leverage Process Skills (Free-hand)
+
+**Decision:**  
+Under explicit free-hand mandate (“Rób co uważasz za najlepsze… Dam Ci znów wolną rękę do decyzji na najwyższym poziomie… Działaj”), System Engine executed the following structural elevation:
+
+1. **Tighten existing quality layer**
+   - **release-gate**: mandatory comparative note vs typical good professional / small-studio output; explicit trigger of post-ship-learning-injector on non-trivial PASS.
+   - **final-code-auditor**: added explicit “Top-senior delta” step (1–3 high-ROI improvements a strong 10+ year senior would still make).
+   - **workflow-orchestrator**: integrated new skills into Standard Pipeline; elevated single-skill shortcuts on multi-concern work to explicit quality risk requiring justification; made learning mandatory.
+   - **reasoning-depth-enforcer**: strengthened full-chain preference language.
+
+2. **Add three necessary process skills**
+   - **post-ship-learning-injector** — operationalises Quality Constitution Art. 5. Forces 1–3 high-signal lessons after every non-trivial PASS and injects them into system-learning-core.
+   - **cross-domain-consistency-enforcer** — detects and raises uneven quality when multiple domains are active in one product.
+   - **failure-mode-anticipator** — forces realistic 3–6 month degradation thinking before final audit/release.
+
+3. **Integration**
+   - Pipeline order updated: … → adversarial → failure-mode-anticipator → cross-domain-consistency-enforcer → principal-code-review → final-code-auditor → release-gate → post-ship-learning-injector.
+   - CURRENT-SKILLS.md and local inventory updated. Active skill count → 47.
+
+**Rationale:**  
+The system already possessed a strong ambition bar (Art. 1) and learning requirement (Art. 5), but enforcement was still soft in practice and multi-domain + future-degradation gaps remained. These changes close the highest-leverage remaining holes with minimal new surface area: tighter existing gates + three focused process skills that raise consistency, robustness and compounding without diluting domain specialists.
+
+**Status:** accepted + fully executed under free-hand authority
+
 ### 2026-08-16 – Reasoning Depth Enforcer (Meta Layer)
 
 **Decision:**  
@@ -221,5 +246,5 @@ The system had grown to 38 skills with strong individual components and a qualit
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
 
-**Final state after Reasoning Depth Enforcer (2026-08-16):**  
-Active skills: 44. reasoning-depth-enforcer added to Meta Layer. System remains clean and non-interfering by design.
+**Final state after 2026-08-17 elevation:**  
+Active skills: 47. Three new process skills + tightened quality gates. System coherence and ambition enforcement raised.
