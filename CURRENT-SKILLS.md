@@ -19,20 +19,20 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ## Meta Layer
 
-- **system-engine** – Meta-engine and guardian of the Quality Constitution. Highest-level quality and evolutionary force. Default: propose only. Executes structural changes only under explicit free-hand mandate.
+- **system-engine** – Brain and foundational force of the entire skill system. Highest-level quality guardian, evolutionary force and the mechanism that keeps the organism coherent — ensures the right skills wake at the optimal moment and prevents crumbling. Executes structural changes only under explicit free-hand mandate.
 - **skill-hygiene-enforcer** – Permanent guardian of inventory cleanliness.
 - **cross-skill-contract-validator** – Mandatory gate (Art. 4) before any new skill or pipeline structural change is accepted.
 - **skill-evolution-engine** – Long-term self-improvement loop under System Engine oversight.
-- **system-learning-core** – Cumulative operational memory of the system. Learns durable lessons, patterns and risks from real projects and surfaces them to help project creation and other skills. Non-disruptive. Complements skill-evolution-engine.
+- **system-learning-core** – Cumulative operational memory of the system. Learns durable lessons, patterns and risks from real projects and surfaces them to help project creation and other skills. Non-disruptive.
 - **decision-scorer** – Lightweight 0–100 evaluation of decisions and proposals.
-- **optimal-decision-engine** – Rigorous multi-option decision engine. Deep clarification loop + primary recommendation + two strong alternatives + scores, confidence, pros/cons and data-driven ranking for business, logistics, operations, project and high-stakes choices. Complements decision-scorer for full analysis.
-- **reasoning-depth-enforcer** – Forces deeper multi-step first-principles reasoning, proactive multi-skill activation and mathematically scored decisions during complex builds and projects. Minimises low-value clarifying questions by raising confidence through tools, logic and optimal-decision-engine first. Non-disruptive Meta Layer skill.
+- **optimal-decision-engine** – Rigorous multi-option decision engine. Deep clarification loop + primary recommendation + two strong alternatives + scores, confidence, pros/cons and data-driven ranking.
+- **reasoning-depth-enforcer** – Primary operational depth instrument of System Engine. Forces deeper multi-step first-principles reasoning, proactive full skill-chain activation and mathematically scored decisions during almost any non-trivial build or project. Non-disruptive Meta Layer skill.
 
 ## Process & Gate Skills (auto-activated)
 - **requirements-clarifier**
 - **product-impact-architect**
 - **impact-hypothesis-tester**
-- **workflow-orchestrator** – sequences the full pipeline and enforces Constitution compliance in Success Criterion
+- **workflow-orchestrator** – sequences the full pipeline and enforces Constitution compliance + active Meta Layer engagement
 - **project-decision-logger**
 - **principal-code-review**
 - **final-code-auditor** – prepares work for Constitution-level quality
@@ -86,4 +86,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-16. Added reasoning-depth-enforcer (Meta Layer) to raise reasoning depth, multi-skill usage and scored decision quality during builds. Active skill count: 44.*
+*Last updated 2026-08-17. High-density compression of the five heaviest skills (system-engine, workflow-orchestrator, senior-software-engineer, ai-opportunity-hunter, ai-problem-investigator) while preserving 100% operational power and raising signal density. system-engine elevated to explicit Brain of the Operation. Active skill count: 44.*
