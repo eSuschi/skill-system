@@ -12,7 +12,7 @@ Skills activate automatically based on intent. The user should never need to ask
 
 1. **Automatic Impact Filter** – Activate product-impact-architect early on almost every non-trivial product idea.
 2. **Project Decision Log** – For multi-session or architecturally significant projects, maintain a short `DECISIONS.md` (template in `/templates/DECISIONS.md`) in the project repository. Record only durable decisions. Supported by **project-decision-logger**.
-3. **Light Retrospective + Learning** – After Release Gate on non-trivial work, capture structured observations. System Engine, skill-evolution-engine and **system-learning-core** use them (Quality Constitution Art. 5).
+3. **Mandatory Learning** – After Release Gate on non-trivial work, run **post-ship-learning-injector**. System Engine, skill-evolution-engine and **system-learning-core** use the results (Quality Constitution Art. 5).
 4. **Skill Hygiene** – Keep the skill set clean. Long-term ownership belongs to **system-engine** + **skill-hygiene-enforcer** (Art. 6).
 5. **Energy Allocation** – Autonomy frees attention for deeper first-principles thinking and higher ambition.
 6. **Quality Constitution** – Final deliverables and all structural changes must satisfy the Constitution. Ambition bar (Art. 1) is non-negotiable. Contracts are law (Art. 4).
@@ -35,8 +35,11 @@ Skills activate automatically based on intent. The user should never need to ask
 - **workflow-orchestrator** – sequences the full pipeline and enforces Constitution compliance + active Meta Layer engagement
 - **project-decision-logger**
 - **principal-code-review**
-- **final-code-auditor** – prepares work for Constitution-level quality
-- **release-gate** – final PASS/FAIL against the Quality Constitution (especially Art. 1–3)
+- **final-code-auditor** – prepares work for Constitution-level quality (includes Top-senior delta)
+- **release-gate** – final PASS/FAIL against the Quality Constitution (especially Art. 1–3) + mandatory comparative ambition note
+- **post-ship-learning-injector** – mandatory structured learning after non-trivial PASS (Art. 5)
+- **failure-mode-anticipator** – anticipates realistic 3–6 month degradation before final audit
+- **cross-domain-consistency-enforcer** – level-matches quality across multiple domains
 - **recovery-resilience-orchestrator**
 - **adversarial-user-simulator**
 - **zero-trust-security-hardener**
@@ -55,7 +58,7 @@ Skills activate automatically based on intent. The user should never need to ask
 ### Desktop & Microsoft Office
 - **ai-meeting-buddy-builder**
 - **microsoft-office-companion-builder**
-- **microsoft-office-word-expert** – professional Word document engineering (primary) + strong Excel competence for data tables, reports and automation (secondary). Leaner after 2026-08-17 densification.
+- **microsoft-office-word-expert** – professional Word document engineering (primary) + strong Excel competence for data tables, reports and automation (secondary).
 - **live-presentation-orchestrator**
 - **live-presentation-hardener**
 
@@ -86,4 +89,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-17. microsoft-office-word-expert densified (−58%) and rebalanced toward stronger Excel secondary. interactive-experience-architect elevated earlier same day. Usefulness scan noted two niche skills. Active skill count: 44.*
+*Last updated 2026-08-17. Added post-ship-learning-injector, cross-domain-consistency-enforcer, failure-mode-anticipator. Tightened release-gate (comparative ambition note), final-code-auditor (Top-senior delta), workflow-orchestrator and reasoning-depth-enforcer. Active skill count: 47.*
