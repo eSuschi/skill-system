@@ -6,6 +6,27 @@
 
 ## Decision Log
 
+### 2026-08-18 – Skill System 2.2 Maximum-Efficiency P0 (Free-hand)
+
+**Decision:**  
+Under explicit free-hand mandate (“Zrób co najlepsze”), System Engine executed the highest-ROI efficiency upgrade of the skill system:
+
+1. **Catalog descriptions** – All skill frontmatter descriptions replaced with short, positive, discriminative 2.2 versions. Discovery text volume reduced ~38 %. Marketing language and competitor lists removed to eliminate lexical overlap.
+2. **reasoning-depth-enforcer** – Full body rewrite. Removed all language that forced or preferred full skill-chain activation. Now strictly focuses on deeper first-principles reasoning, alternative generation, scoring and autonomy. Explicitly does **not** add skills by default.
+3. **decision-scorer** – Converted to pure compatibility alias that routes to FAST mode of optimal-decision-engine. No separate runtime body loaded.
+4. **senior-coding / senior-browser / disabled** – Descriptions and bodies aligned with ALIAS / REMOVE status. Bodies never load for new work.
+5. **system-engine** – Injected official Routing Algorithm 2.2 (NO_SKILL first, exact-project > domain > stage > fallback, one primary, execution-mode ceilings FAST/PRO/MAX). Updated relationship and operating stance.
+6. **workflow-orchestrator** – Strengthened “minimal necessary sequence”, one-primary preference and execution-mode ceilings. Clarified that reasoning-depth-enforcer does not expand the skill set.
+7. **CURRENT-SKILLS.md** – Fully rewritten to the new short-description standard and 2.2 principles.
+
+**Rationale:**  
+Maximize quality per unit of context / token / tool-call cost. The previous combination of long overlapping descriptions + reasoning-depth forcing full chains created unnecessary co-activation and diluted attention on the correct specialist. These changes remove the tax while preserving (and sharpening) specialization and the Ambition Bar.
+
+**Expected impact:**  
+Lower average number of full skill bodies loaded, cleaner routing, higher attention on the correct specialist, no loss of specialization capability.
+
+**Status:** accepted + fully executed under free-hand authority. Local runtime bodies updated. GitHub source-of-truth (this file + CURRENT-SKILLS.md) synchronized.
+
 ### 2026-08-17 (evening) – Full Skill Inventory Scan + Hygiene Pass
 
 **Decision:**  
@@ -263,5 +284,5 @@ The system had grown to 38 skills with strong individual components and a qualit
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
 
-**Final state after full 2026-08-17 scan + hygiene:**  
-Active skills: **46**. Inventory perfectly matches local folders. Quality gates tightened. Learning mandatory. Multi-domain and failure-mode coverage added. System is coherent, ambitious and clean.
+**Final state after 2026-08-18 Maximum-Efficiency P0:**  
+Short discriminative catalog, NO_SKILL + one-primary routing, depth without forced chains, decision-scorer as alias. Local runtime: 50 folders (including compatibility aliases). System coherent, ambitious and now more efficient.
