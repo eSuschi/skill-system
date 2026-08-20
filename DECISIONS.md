@@ -6,6 +6,28 @@
 
 ## Decision Log
 
+### 2026-08-20 – Permanent Final Removal of Deprecated Aliases (User-directed hygiene)
+
+**Decision:**  
+Under explicit user instruction to clean permanently so the skills never reappear:
+
+1. Local folders **completely deleted**:
+   - `decision-scorer`
+   - `senior-browser`
+   - `senior-coding`
+   - `disabled`
+
+2. `CURRENT-SKILLS.md` updated: Compatibility Aliases section removed entirely. Explicit permanent-removal note added. Active count confirmed at 46.
+
+3. Functionality of `decision-scorer` fully absorbed into FAST mode of `optimal-decision-engine`. The other three were pure deprecated aliases with no remaining value.
+
+4. Any future recreation of these four names is a hygiene violation and must be rejected by skill-hygiene-enforcer / system-engine.
+
+**Rationale:**  
+These entries had reappeared multiple times despite earlier cleanup decisions. User explicitly requested permanent deletion from local runtime, GitHub inventory and memory so they stop returning. This is the final, non-reversible cleanup under Quality Constitution Art. 6.
+
+**Status:** accepted + fully executed. Local folders gone. GitHub source of truth cleaned.
+
 ### 2026-08-20 – Sustained Deep Work Contract (Free-hand)
 
 **Decision:**  
@@ -312,5 +334,5 @@ The system had grown to 38 skills with strong individual components and a qualit
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
 
-**Final state after 2026-08-20 Sustained Deep Work Contract (post-audit):**  
-Meta layer owns progress density and turn economy in addition to depth and routing. No new skill added. Internal references consistent. System coherent, ambitious and efficiency-focused.
+**Final state after 2026-08-20 Permanent Final Removal:**  
+Deprecated aliases completely excised from local runtime and authoritative inventory. Active skill count: 46. Catalog clean. Recreation forbidden.
