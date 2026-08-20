@@ -34,7 +34,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **skill-evolution-engine** – Maintenance-only. Analyze repeated execution traces, eval results, missed triggers, false triggers and quality outcomes to improve, merge or create skills when evidence shows a durable gap.
 - **skill-hygiene-enforcer** – Maintenance-only. Audit the skill catalog for duplicates, stale aliases, deprecated entries, ownership collisions and source-of-truth drift when skills are added, removed, renamed or reorganized.
 - **cross-skill-contract-validator** – Structural-gate only. Validate ownership, inputs, outputs, precedence, cycles and hand-off contracts whenever a skill or pipeline structure is changed.
-- **optimal-decision-engine** – Choose between meaningful options such as technologies, platforms, architectures or operational alternatives. Define criteria, score trade-offs 0–100, compare confidence and recommend the best option. (Includes FAST mode for quick 0–100 evaluations previously handled by decision-scorer.)
+- **optimal-decision-engine** – Choose between meaningful options such as technologies, platforms, architectures or operational alternatives. Define criteria, score trade-offs 0–100, compare confidence and recommend the best option. (Includes FAST mode for quick 0–100 evaluations.)
 
 ## Process & Gate Skills (auto-activated)
 
@@ -70,16 +70,10 @@ Skills activate automatically based on intent. The user should never need to ask
 - **live-presentation-orchestrator** – Own the live presenter-session workflow for Excel/PowerPoint: voice navigation, named views, zoom, scrolling, sheet/slide control and mapping audience questions to on-screen actions.
 - **live-presentation-hardener** – Near release, harden AI Meeting Buddy or Office companion software for COM stability, latency, reload recovery, local/offline behavior and large-screen presentation use.
 
-### Engines & Interactive
-- **principal-engine-architect** – Design reusable modular 2D engine or runtime architecture: subsystems, boundaries, lifecycle, data flow, extensibility, performance and engine-level implementation.
-- **engine-ai-native-layer** – Add AI-native authoring and control interfaces to an existing modular engine: declarative commands, agent APIs, validation hooks and AI-friendly content workflows.
-- **browser-game-expert** – Build, debug and polish complete playable browser games shareable by URL using HTML5, Canvas, Phaser, Three.js or React, including gameplay and mobile controls.
+### Systems & Interactive
+- **principal-engine-architect** – Design reusable modular system / runtime architecture: subsystems, boundaries, lifecycle, data flow, extensibility, performance and engine-level implementation.
+- **engine-ai-native-layer** – Add AI-native authoring and control interfaces to an existing modular system: declarative commands, agent APIs, validation hooks and AI-friendly content workflows.
 - **interactive-experience-architect** – Improve interaction design in a functioning interactive product: flow, statefulness, feedback, progressive disclosure, transitions and experiential polish when those are the specific problem.
-
-### Action RPG / Isometric ARPG (Aetherstone domain)
-- **arpg-combat-feel-architect** – Own ARPG combat feel: targeting, hit feedback, timing, skills, reactions, boss combat, responsiveness and player skill expression.
-- **arpg-loot-progression-architect** – Own ARPG loot and progression: item identity, upgrades, crafting, bonuses, builds, skill trees, drop systems and long-term power curves.
-- **arpg-content-tools-architect** – Own ARPG content-authoring tools and data pipelines: map/zone, item, skill, drop-table, balance and other designer-facing editors.
 
 ### Mobile / Life Impact
 - **principal-life-app-architect** – Design the product and technical architecture of a cross-platform mobile daily-life app, including offline behavior, core flows, reliability and real-world usefulness.
@@ -98,7 +92,9 @@ Skills activate automatically based on intent. The user should never need to ask
 ---
 
 **Permanently removed (do not recreate):**  
-decision-scorer, senior-browser, senior-coding, disabled.  
-These were compatibility aliases / deprecated entries. Their functionality is fully absorbed or no longer needed. Local folders deleted 2026-08-20. Any reappearance is a hygiene violation.
+- decision-scorer, senior-browser, senior-coding, disabled (aliases, 2026-08-20)
+- arpg-combat-feel-architect, arpg-loot-progression-architect, arpg-content-tools-architect, browser-game-expert (pure game domain, retired 2026-08-20 under direction shift to automation / business tools / deep thinking / working products)
 
-*Last updated 2026-08-20. Permanent cleanup of all deprecated aliases. Active skill count: 46. Catalog is clean.*
+Any reappearance is a hygiene violation.
+
+*Last updated 2026-08-20. Pure game skills retired. Active skill count: 42. Catalog aligned with new direction.*
