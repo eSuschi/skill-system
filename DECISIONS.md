@@ -6,6 +6,27 @@
 
 ## Decision Log
 
+### 2026-08-20 – Sustained Deep Work Contract (Free-hand)
+
+**Decision:**  
+Under explicit free-hand mandate, System Engine strengthened the existing meta layer to close the “forced frequent replies / short-turn spam” gap without adding a new skill:
+
+1. **reasoning-depth-enforcer** – Expanded from pure depth instrument to depth + autonomy + execution endurance. Added explicit Sustained Deep Work rules: progress density per turn, strict turn-ending conditions (no open “co dalej?”), artifact continuity, and preference for continued autonomous tool/decision/write loops.
+
+2. **workflow-orchestrator** – Strengthened Autonomy and Communication section with mandatory Sustained Deep Work / Turn Economy rules during active project work. Specialists and orchestration must prefer meaningful closed chunks and continuity via files.
+
+3. **system-engine** – Brain Mode now explicitly monitors the new failure mode: short-turn spam or forced frequent user replies during project work. Silent correction path is elevation of reasoning-depth + progress density.
+
+4. **optimal-decision-engine** – Clarification bias made context-aware. Standalone decisions still clarify until high confidence; when invoked inside ongoing project execution the open clarification loop is suppressed in favour of reasoned assumptions + scoring. Hard constraints only.
+
+**Rationale:**  
+User-reported real friction: during project work the system was forcing replies every 2–3 minutes. Existing autonomy language was present but insufficiently operationalised for turn economy and progress density. Adding a new skill would violate the 2026-08-18 token-density / catalog-cleanliness lesson. Strengthening the three core meta instruments + one targeted correction compounds quality without surface-area growth.
+
+**Expected impact:**  
+Longer productive stretches, fewer forced interruptions, higher progress per turn, while preserving one-primary ownership and depth-without-forced-chains.
+
+**Status:** accepted + fully executed under free-hand authority. Local skill bodies updated. Decision recorded here.
+
 ### 2026-08-18 – Skill System 2.2 Maximum-Efficiency P0 (Free-hand)
 
 **Decision:**  
@@ -284,5 +305,5 @@ The system had grown to 38 skills with strong individual components and a qualit
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
 
-**Final state after 2026-08-18 Maximum-Efficiency P0:**  
-Short discriminative catalog, NO_SKILL + one-primary routing, depth without forced chains, decision-scorer as alias. Local runtime: 50 folders (including compatibility aliases). System coherent, ambitious and now more efficient.
+**Final state after 2026-08-20 Sustained Deep Work Contract:**  
+Meta layer now owns progress density and turn economy in addition to depth and routing. No new skill added. System remains coherent, ambitious and efficiency-focused.
