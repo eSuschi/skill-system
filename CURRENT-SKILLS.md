@@ -13,7 +13,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - Precedence: exact project > exact artifact/domain > stage-specific specialist > generic fallback.
 - One primary owner + support only when a concrete risk or acceptance criterion remains uncovered.
 - Execution modes: FAST ≤ 1 full body | PRO ≤ 3 | MAX = sequential owners (never load-all).
-- `reasoning-depth-enforcer` raises reasoning quality only — it does **not** expand the skill chain.
+- `reasoning-depth-enforcer` raises reasoning quality and execution endurance / progress density — it does **not** expand the skill chain.
 
 ## Highest-Level Operating Practices (mandatory)
 
@@ -23,13 +23,14 @@ Skills activate automatically based on intent. The user should never need to ask
 4. **Skill Hygiene** – Keep the skill set clean. Long-term ownership belongs to **system-engine** + **skill-hygiene-enforcer** (Art. 6).
 5. **Energy Allocation** – Autonomy frees attention for deeper first-principles thinking and higher ambition.
 6. **Quality Constitution** – Final deliverables and all structural changes must satisfy the Constitution. Ambition bar (Art. 1) is non-negotiable. Contracts are law (Art. 4).
+7. **Sustained Deep Work** – During active project work prefer meaningful closed progress per turn, strict turn-ending rules (no open “co dalej?”), and artifact continuity so the user is not forced to reply every few minutes.
 
 ## Meta Layer
 
 - **system-engine** – Governs skill routing, precedence, execution mode and system-wide quality policy. Use when work requires choosing or coordinating skills; it does not perform domain execution.
 - **system-learning-core** – Retrieves validated lessons and risks from prior projects when they could materially change the current plan, validation or risk handling. Return only the 1–3 most relevant lessons.
 - **workflow-orchestrator** – Design the minimal end-to-end multi-skill workflow when one project spans requirements, architecture, implementation, security/testing and release or otherwise requires coordinated hand-offs between distinct owners.
-- **reasoning-depth-enforcer** – Apply deeper first-principles analysis to irreversible migrations, uncertain dependency assumptions, high-stakes choices or other cases where shallow reasoning creates material risk; do not add skills by default.
+- **reasoning-depth-enforcer** – Apply deeper first-principles analysis and sustained autonomous execution on non-trivial work so shallow thinking and frequent short turns become rare; do not add skills by default.
 - **skill-evolution-engine** – Maintenance-only. Analyze repeated execution traces, eval results, missed triggers, false triggers and quality outcomes to improve, merge or create skills when evidence shows a durable gap.
 - **skill-hygiene-enforcer** – Maintenance-only. Audit the skill catalog for duplicates, stale aliases, deprecated entries, ownership collisions and source-of-truth drift when skills are added, removed, renamed or reorganized.
 - **cross-skill-contract-validator** – Structural-gate only. Validate ownership, inputs, outputs, precedence, cycles and hand-off contracts whenever a skill or pipeline structure is changed.
@@ -104,4 +105,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ---
 
-*Last updated 2026-08-18. Skill System 2.2 Maximum-Efficiency P0 applied: short discriminative catalog descriptions, NO_SKILL + one-primary routing, reasoning-depth without forced skill-chain expansion, decision-scorer converted to alias. Local runtime skill folders: 50 (including 4 compatibility entries). System coherent and efficiency-focused.*
+*Last updated 2026-08-20. Skill System 2.2 + Sustained Deep Work Contract: reasoning-depth-enforcer now owns progress density and turn economy in addition to depth; no new skill added; catalog remains clean and efficiency-focused.*
