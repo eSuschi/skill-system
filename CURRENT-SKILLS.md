@@ -34,8 +34,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **skill-evolution-engine** – Maintenance-only. Analyze repeated execution traces, eval results, missed triggers, false triggers and quality outcomes to improve, merge or create skills when evidence shows a durable gap.
 - **skill-hygiene-enforcer** – Maintenance-only. Audit the skill catalog for duplicates, stale aliases, deprecated entries, ownership collisions and source-of-truth drift when skills are added, removed, renamed or reorganized.
 - **cross-skill-contract-validator** – Structural-gate only. Validate ownership, inputs, outputs, precedence, cycles and hand-off contracts whenever a skill or pipeline structure is changed.
-- **optimal-decision-engine** – Choose between meaningful options such as technologies, platforms, architectures or operational alternatives. Define criteria, score trade-offs 0–100, compare confidence and recommend the best option.
-- **decision-scorer** – Compatibility alias for a quick 0–100 evaluation. Route to FAST mode of optimal-decision-engine instead of loading a separate runtime procedure.
+- **optimal-decision-engine** – Choose between meaningful options such as technologies, platforms, architectures or operational alternatives. Define criteria, score trade-offs 0–100, compare confidence and recommend the best option. (Includes FAST mode for quick 0–100 evaluations previously handled by decision-scorer.)
 
 ## Process & Gate Skills (auto-activated)
 
@@ -96,13 +95,10 @@ Skills activate automatically based on intent. The user should never need to ask
 - **machine-fault-logger** – Project-specific owner for the Faults / Machine Fault Logger offline web app: repair sessions, speech logging, LocalStorage recovery, history, charts and CSV/Excel export.
 - **recipe-source-auditor** – Verify or repair a cooking recipe against reliable sources and practical cookability, including ingredients, temperatures, timings, sequencing and vague preparation steps.
 
-## Compatibility Aliases / Removed from Normal Runtime
-
-- **decision-scorer** → alias to FAST mode of optimal-decision-engine
-- **senior-browser** → deprecated alias → browser-game-expert
-- **senior-coding** → deprecated alias → senior-software-engineer
-- **disabled** → never activate; remove from active catalog if host permits
-
 ---
 
-*Last updated 2026-08-20. Skill System 2.2 + Sustained Deep Work Contract: reasoning-depth-enforcer now owns progress density and turn economy in addition to depth; no new skill added; catalog remains clean and efficiency-focused.*
+**Permanently removed (do not recreate):**  
+decision-scorer, senior-browser, senior-coding, disabled.  
+These were compatibility aliases / deprecated entries. Their functionality is fully absorbed or no longer needed. Local folders deleted 2026-08-20. Any reappearance is a hygiene violation.
+
+*Last updated 2026-08-20. Permanent cleanup of all deprecated aliases. Active skill count: 46. Catalog is clean.*
