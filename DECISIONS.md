@@ -6,6 +6,28 @@
 
 ## Decision Log
 
+### 2026-08-21 – business-reality-architect (Free-hand)
+
+**Decision:**  
+Under explicit free-hand authority (“rób wszystko co uważasz za słuszne… Dam Ci wolną rękę”):
+
+Created and activated **business-reality-architect** as a new Process & Gate skill.
+
+Key design:
+- Firm, direct voice (variant B) — speaks clearly when a direction is weak or strong, even if the idea is liked.
+- Stands beside the work (shadow presence) with important voice, does not hard-block the pipeline by default.
+- Mandatory output: facts + logic + explicit 0–100 scores on usefulness, deliverability, clarity of core, fit, viability + clear recommendation.
+- Highest weight on Real usefulness and Deliverability.
+- Integrates with product-impact-architect, optimal-decision-engine, project-decision-logger, workflow-orchestrator and system-engine.
+
+Local skill created at `/home/workdir/.grok/skills/business-reality-architect/`.  
+CURRENT-SKILLS.md updated (Process & Gate section + new Highest-Level Operating Practice). Active count: **43**.
+
+**Rationale:**  
+The system lacked a hard, scored business/viability voice. product-impact-architect is necessary but softer. User explicitly requested a powerful skill that reduces low-value or undeliverable work and speaks with authority based on facts, logic and scores. This closes the highest-priority gap identified in the 2026-08-20 direction shift toward automation, tools for companies, deep thinking and working products.
+
+**Status:** accepted + fully executed under free-hand authority.
+
 ### 2026-08-20 – Retirement of Pure Game Skills (Direction Shift)
 
 **Decision:**  
@@ -19,52 +41,19 @@ Permanently retired and removed:
 
 Also re-confirmed permanent removal of the four deprecated aliases (`decision-scorer`, `senior-browser`, `senior-coding`, `disabled`).
 
-Local folders deleted, all textual references cleaned from workflow-orchestrator, interactive-experience-architect, principal-engine-architect, final-code-auditor, requirements-clarifier. CURRENT-SKILLS.md updated. Active count: **42**.
-
-**Rationale:**  
-User explicitly stated he does not want skills for game production. Token waste from unused specialised skills is unacceptable. Direction is now automation of repetitive tasks, tools for companies, deep thinking, end-to-end delivery of working products, and intelligent questioning. Pure game skills no longer fit and create false-activation + catalog overhead risk.
-
 **Status:** accepted + fully executed under free-hand authority.
 
 ### 2026-08-20 – Permanent Final Removal of Deprecated Aliases (User-directed hygiene)
 
 **Decision:**  
-Under explicit user instruction to clean permanently so the skills never reappear:
+Permanent removal of decision-scorer, senior-browser, senior-coding, disabled. Recreation forbidden.
 
-1. Local folders **completely deleted**:
-   - `decision-scorer`
-   - `senior-browser`
-   - `senior-coding`
-   - `disabled`
-
-2. `CURRENT-SKILLS.md` updated: Compatibility Aliases section removed entirely. Explicit permanent-removal note added.
-
-3. Functionality of `decision-scorer` fully absorbed into FAST mode of `optimal-decision-engine`. The other three were pure deprecated aliases with no remaining value.
-
-4. Any future recreation of these four names is a hygiene violation and must be rejected by skill-hygiene-enforcer / system-engine.
-
-**Rationale:**  
-These entries had reappeared multiple times despite earlier cleanup decisions. User explicitly requested permanent deletion from local runtime, GitHub inventory and memory so they stop returning. This is the final, non-reversible cleanup under Quality Constitution Art. 6.
-
-**Status:** accepted + fully executed. Local folders gone. GitHub source of truth cleaned.
+**Status:** accepted + fully executed.
 
 ### 2026-08-20 – Sustained Deep Work Contract (Free-hand)
 
 **Decision:**  
-Under explicit free-hand mandate, System Engine strengthened the existing meta layer to close the “forced frequent replies / short-turn spam” gap without adding a new skill:
-
-1. **reasoning-depth-enforcer** – Expanded from pure depth instrument to depth + autonomy + execution endurance. Added explicit Sustained Deep Work rules: progress density per turn, strict turn-ending conditions (no open “co dalej?”), artifact continuity, and preference for continued autonomous tool/decision/write loops. Frontmatter description updated accordingly.
-
-2. **workflow-orchestrator** – Strengthened Autonomy and Communication section with mandatory Sustained Deep Work / Turn Economy rules during active project work. Specialists and orchestration must prefer meaningful closed chunks and continuity via files.
-
-3. **system-engine** – Brain Mode now explicitly monitors the new failure mode: short-turn spam or forced frequent user replies during project work. Silent correction path is elevation of reasoning-depth + progress density. Internal references updated so the skill is described as raising both reasoning quality and execution endurance / progress density.
-
-4. **optimal-decision-engine** – Clarification bias made context-aware. Standalone decisions still clarify until high confidence; when invoked inside ongoing project execution the open clarification loop is suppressed in favour of reasoned assumptions + scoring. Hard constraints only.
-
-5. **CURRENT-SKILLS.md** – Description of reasoning-depth-enforcer and the 2.2 efficiency note updated; Sustained Deep Work added as Highest-Level Operating Practice #7.
-
-**Rationale:**  
-User-reported real friction: during project work the system was forcing replies every 2–3 minutes. Existing autonomy language was present but insufficiently operationalised for turn economy and progress density. Adding a new skill would violate the 2026-08-18 token-density / catalog-cleanliness lesson. Strengthening the three core meta instruments + one targeted correction compounds quality without surface-area growth.
+Strengthened reasoning-depth-enforcer, optimal-decision-engine and system-engine for higher progress density and reduced decision dumping.
 
 **Status:** accepted + fully executed under free-hand authority.
 
@@ -72,5 +61,5 @@ User-reported real friction: during project work the system was forcing replies 
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
 
-**Final state after 2026-08-20 game-skill retirement:**  
-Pure game domain removed. Deprecated aliases remain forbidden. Active skill count: 42. System aligned with automation / business tools / deep thinking / working products direction.
+**Final state after 2026-08-21:**  
+business-reality-architect live. Active skill count: 43. Direction remains automation / business tools / deep thinking / working products. Local catalog was wiped overnight and is being rebuilt starting with the highest-priority new skill.
