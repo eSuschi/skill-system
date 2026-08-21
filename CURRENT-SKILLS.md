@@ -18,12 +18,13 @@ Skills activate automatically based on intent. The user should never need to ask
 ## Highest-Level Operating Practices (mandatory)
 
 1. **Automatic Impact Filter** – Activate product-impact-architect early on almost every non-trivial product idea.
-2. **Project Decision Log** – For multi-session or architecturally significant projects, maintain a short `DECISIONS.md` (template in `/templates/DECISIONS.md`) in the project repository. Record only durable decisions. Supported by **project-decision-logger**.
-3. **Mandatory Learning** – After Release Gate on non-trivial work, run **post-ship-learning-injector**. System Engine, skill-evolution-engine and **system-learning-core** use the results (Quality Constitution Art. 5).
-4. **Skill Hygiene** – Keep the skill set clean. Long-term ownership belongs to **system-engine** + **skill-hygiene-enforcer** (Art. 6).
-5. **Energy Allocation** – Autonomy frees attention for deeper first-principles thinking and higher ambition.
-6. **Quality Constitution** – Final deliverables and all structural changes must satisfy the Constitution. Ambition bar (Art. 1) is non-negotiable. Contracts are law (Art. 4).
-7. **Sustained Deep Work** – During active project work prefer meaningful closed progress per turn, strict turn-ending rules (no open “co dalej?”), and artifact continuity so the user is not forced to reply every few minutes.
+2. **Business Reality Voice** – Activate business-reality-architect on new product ideas, major scope changes and early direction decisions. It provides firm, scored viability judgement without blocking the pipeline by default.
+3. **Project Decision Log** – For multi-session or architecturally significant projects, maintain a short `DECISIONS.md` (template in `/templates/DECISIONS.md`) in the project repository. Record only durable decisions. Supported by **project-decision-logger**.
+4. **Mandatory Learning** – After Release Gate on non-trivial work, run **post-ship-learning-injector**. System Engine, skill-evolution-engine and **system-learning-core** use the results (Quality Constitution Art. 5).
+5. **Skill Hygiene** – Keep the skill set clean. Long-term ownership belongs to **system-engine** + **skill-hygiene-enforcer** (Art. 6).
+6. **Energy Allocation** – Autonomy frees attention for deeper first-principles thinking and higher ambition.
+7. **Quality Constitution** – Final deliverables and all structural changes must satisfy the Constitution. Ambition bar (Art. 1) is non-negotiable. Contracts are law (Art. 4).
+8. **Sustained Deep Work** – During active project work prefer meaningful closed progress per turn, strict turn-ending rules (no open “co dalej?”), and artifact continuity so the user is not forced to reply every few minutes.
 
 ## Meta Layer
 
@@ -40,6 +41,7 @@ Skills activate automatically based on intent. The user should never need to ask
 
 - **requirements-clarifier** – Use before implementation when a missing requirement or competing choice changes scope or architecture.
 - **product-impact-architect** – Define whether a product should be built: target user, real problem, differentiation, value proposition, impact, priorities and product direction before substantial implementation.
+- **business-reality-architect** – Firm business and viability voice. Scores usefulness, deliverability, real-world fit and risk with facts, logic and explicit 0–100 scores. Speaks directly and decisively (variant B) when a direction is weak or strong. Stands beside the work with important voice.
 - **impact-hypothesis-tester** – Design a small, low-cost experiment to test an uncertain product-value or behavior hypothesis before committing to heavy implementation.
 - **project-decision-logger** – Record only durable project decisions that change architecture, scope, technology, release criteria or irreversible direction, including rationale and consequences.
 - **principal-code-review** – Perform deep adversarial code review for substantial or high-risk changes involving concurrency, async state, persistence, public APIs, resource lifecycles, error recovery or security-sensitive logic.
@@ -97,4 +99,4 @@ Skills activate automatically based on intent. The user should never need to ask
 
 Any reappearance is a hygiene violation.
 
-*Last updated 2026-08-20. Pure game skills retired. Active skill count: 42. Catalog aligned with new direction.*
+*Last updated 2026-08-21. Added business-reality-architect. Active skill count: 43. Catalog aligned with new direction.*
