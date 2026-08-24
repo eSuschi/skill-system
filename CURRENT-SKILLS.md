@@ -90,7 +90,14 @@ Skills activate automatically based on intent. The user should never need to ask
 
 ### Cinematic & Creative
 - **imagine-prompt-specialist** – Create and optimize production-ready prompts specifically for Grok Imagine image or video generation, including composition, camera, lighting, style and prompt adherence.
-- **cinematic-continuity-director** – Maintain the same character/actress, wardrobe, lighting, style, location and narrative continuity across multiple connected Grok Imagine shots or video/image generations.
+- **cinematic-continuity-director** – Maintain the same character/actress,wardrobe, lighting, style, location and narrative continuity across multiple connected Grok Imagine shots or video/image generations.
+
+### Quant / AI Stock System (personal professional)
+- **quant-ai-stock-system** – Orchestrator for personal AI quant stock analysis and trading systems at Simons-Thorp mathematical standards. Owns overall lifecycle, pure quant core, research-first flow and elevation of the AI Stock Analyzer project.
+- **quant-data-integrity** – Data hygiene, bias elimination, reproducibility and clean contracts. Root of all reliable analysis.
+- **quant-signal-discovery** – Pure statistical alpha and feature discovery without narrative bias.
+- **quant-validation-engine** – Independent statistical checker and gatekeeper with absolute veto power over weak signals (walk-forward, costs, regimes, decay).
+- **quant-risk-and-sizing** – Fractional Kelly, volatility targeting, portfolio construction and hard risk constraints (Thorp-style).
 
 ### Other Precision Skills
 - **ai-opportunity-hunter** – Discover, validate and prioritize unmet needs specifically suited to AI capabilities or reusable AI skills, then define the highest-value opportunity.
@@ -106,4 +113,4 @@ Skills activate automatically based on intent. The user should never need to ask
 **Re-activated / restored 2026-08-24 (user direction):**  
 ARPG domain skills (combat-feel, content-tools, loot-progression, visual-asset) + browser-game-expert. These remain active for Aetherstone and related work.
 
-*Last updated 2026-08-24. Active skill count ~47 (local). Catalog re-aligned with user request to keep game domain skills and restore visual asset ownership.*
+*Last updated 2026-08-24. Active skill count increased by the quant cluster. Catalog includes new Quant / AI Stock System domain.*

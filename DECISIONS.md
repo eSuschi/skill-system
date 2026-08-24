@@ -6,6 +6,26 @@
 
 ## Decision Log
 
+### 2026-08-24 – Quant AI Stock System Cluster (Free-hand)
+
+**Decision:**  
+Under free-hand authority for the AI Stock Analyzer project, created a cooperating cluster of five specialised quant skills at Simons/Thorp mathematical standards:
+
+- quant-ai-stock-system (orchestrator)
+- quant-data-integrity
+- quant-signal-discovery
+- quant-validation-engine (independent checker with absolute veto)
+- quant-risk-and-sizing (fractional Kelly + constraints)
+
+Pipeline: data-integrity → signal-discovery → validation-engine (gate) → risk-and-sizing.
+
+Local skills created and validated in `/home/workdir/.grok/skills/`. CURRENT-SKILLS.md updated with new Quant Domain section.
+
+**Rationale:**  
+User is building a personal professional AI stock analyzer. Previous half-built version in another AI failed at higher levels. Explicit request for multiple cooperating mathematical skills + independent checker, drawing from people who excelled at data analysis and crisis prediction (Burry, Taleb, Mandelbrot, Lo, Wilmott, Simons, Thorp). One monolithic skill is weaker than specialised ownership with hard validation gate.
+
+**Status:** accepted + fully executed under free-hand authority.
+
 ### 2026-08-21 – business-reality-architect (Free-hand)
 
 **Decision:**  
@@ -61,5 +81,5 @@ Strengthened reasoning-depth-enforcer, optimal-decision-engine and system-engine
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
 
-**Final state after 2026-08-21:**  
-business-reality-architect live. Active skill count: 43. Direction remains automation / business tools / deep thinking / working products. Local catalog was wiped overnight and is being rebuilt starting with the highest-priority new skill.
+**Final state after 2026-08-24:**  
+Quant AI stock cluster live. Active skill count increased by 5. Direction remains automation / business tools / deep thinking / working products + personal high-level quant tools.
