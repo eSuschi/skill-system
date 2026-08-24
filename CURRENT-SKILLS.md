@@ -76,6 +76,13 @@ Skills activate automatically based on intent. The user should never need to ask
 - **principal-engine-architect** – Design reusable modular system / runtime architecture: subsystems, boundaries, lifecycle, data flow, extensibility, performance and engine-level implementation.
 - **engine-ai-native-layer** – Add AI-native authoring and control interfaces to an existing modular system: declarative commands, agent APIs, validation hooks and AI-friendly content workflows.
 - **interactive-experience-architect** – Improve interaction design in a functioning interactive product: flow, statefulness, feedback, progressive disclosure, transitions and experiential polish when those are the specific problem.
+- **browser-game-expert** – Build, debug and polish complete playable browser games shareable by URL using HTML5, Canvas, Phaser, Three.js or React, including gameplay and mobile controls.
+
+### ARPG Domain (Aetherstone & similar)
+- **arpg-combat-feel-architect** – Own ARPG combat feel: targeting, hit feedback, timing, skills, reactions, boss combat, responsiveness and player skill expression.
+- **arpg-content-tools-architect** – Own ARPG content-authoring tools and data pipelines: map/zone, item, skill, drop-table, balance and other designer-facing editors.
+- **arpg-loot-progression-architect** – Own ARPG loot and progression: item identity, upgrades, crafting, bonuses, builds, skill trees, drop systems and long-term power curves.
+- **arpg-visual-asset-architect** – Own ARPG visual identity and full asset pipeline — character NPC boss appearance, weapons gear props, environment nature grass flora, VFX particle consistency, art direction, modular production standards and Blender-first game-ready output for Aetherstone-style action RPGs.
 
 ### Mobile / Life Impact
 - **principal-life-app-architect** – Design the product and technical architecture of a cross-platform mobile daily-life app, including offline behavior, core flows, reliability and real-world usefulness.
@@ -88,15 +95,15 @@ Skills activate automatically based on intent. The user should never need to ask
 ### Other Precision Skills
 - **ai-opportunity-hunter** – Discover, validate and prioritize unmet needs specifically suited to AI capabilities or reusable AI skills, then define the highest-value opportunity.
 - **ai-problem-investigator** – Perform evidence-driven root-cause analysis of operational, technical, equipment, process, workflow or performance failures and identify the most likely cause plus next diagnostic step.
-- **machine-fault-logger** – Project-specific owner for the Faults / Machine Fault Logger offline web app: repair sessions, speech logging, LocalStorage recovery, history, charts and CSV/Excel export.
+- **machine-fault-logger** – Project-specific owner for the Faults / Machine Fault Logger offline web app: repair sessions, speech logging, LocalStorage recovery, history, charts and CSV/Excel export. (Body minimised 2026-08-24 for token efficiency.)
 - **recipe-source-auditor** – Verify or repair a cooking recipe against reliable sources and practical cookability, including ingredients, temperatures, timings, sequencing and vague preparation steps.
 
 ---
 
 **Permanently removed (do not recreate):**  
-- decision-scorer, senior-browser, senior-coding, disabled (aliases, 2026-08-20)
-- arpg-combat-feel-architect, arpg-loot-progression-architect, arpg-content-tools-architect, browser-game-expert (pure game domain, retired 2026-08-20 under direction shift to automation / business tools / deep thinking / working products)
+- decision-scorer, senior-browser, senior-coding, disabled (aliases, 2026-08-20). Local folders deleted 2026-08-24.
 
-Any reappearance is a hygiene violation.
+**Re-activated / restored 2026-08-24 (user direction):**  
+ARPG domain skills (combat-feel, content-tools, loot-progression, visual-asset) + browser-game-expert. These remain active for Aetherstone and related work.
 
-*Last updated 2026-08-21. Added business-reality-architect. Active skill count: 43. Catalog aligned with new direction.*
+*Last updated 2026-08-24. Active skill count ~47 (local). Catalog re-aligned with user request to keep game domain skills and restore visual asset ownership.*
