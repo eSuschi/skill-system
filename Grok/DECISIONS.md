@@ -6,6 +6,23 @@
 
 ## Decision Log
 
+### 2026-08-24 – strategic-path-engine (Process & Gate)
+
+**Decision:**  
+Created **strategic-path-engine** to convert a known but incomplete product/project direction into exactly 2–3 scored next moves. User only selects. Does not invent product goals and does not choose technologies, architectures or purchases.
+
+Placement: Process & Gate, after product-impact-architect and business-reality-architect.
+
+Hard mutex with **optimal-decision-engine**: the same question never goes to both. ODE owns closed choice among already defined alternatives. Path engine owns formalisation of a still-fuzzy next step.
+
+After user selection: project-decision-logger → requirements-clarifier if scope is missing → ODE only if the move became a closed choice → otherwise named domain owner. The skill does not execute the move.
+
+Runtime body: `/home/workdir/.grok/skills/strategic-path-engine/` (SKILL.md + references/SCORING-MODEL.md). Repo copy under `Grok/skills/strategic-path-engine/`.
+
+Active skill count: 53.
+
+**Status:** accepted + executed.
+
 ### 2026-08-24 – Multi-AI folder separation (Grok/)
 
 **Decision:**  
