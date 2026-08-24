@@ -6,6 +6,24 @@
 
 ## Decision Log
 
+### 2026-08-24 – Quant cluster + business-reality bodies actually deployed (Hygiene correction)
+
+**Decision:**  
+Inventory in CURRENT-SKILLS.md and earlier DECISIONS entry claimed local creation of the five quant skills and business-reality-architect. Actual SKILL.md bodies were missing from `/home/workdir/.grok/skills/`. 
+
+Under user direction (“sprawdź github i wdrąż te skille”) the following were created and validated locally:
+
+- quant-ai-stock-system
+- quant-data-integrity
+- quant-signal-discovery
+- quant-validation-engine
+- quant-risk-and-sizing
+- business-reality-architect
+
+Additionally permanently removed leftover forbidden folders decision-scorer and disabled (hygiene).
+
+**Status:** accepted + executed. System now consistent: inventory + local bodies both present.
+
 ### 2026-08-24 – Quant AI Stock System Cluster (Free-hand)
 
 **Decision:**  
@@ -24,7 +42,7 @@ Local skills created and validated in `/home/workdir/.grok/skills/`. CURRENT-SKI
 **Rationale:**  
 User is building a personal professional AI stock analyzer. Previous half-built version in another AI failed at higher levels. Explicit request for multiple cooperating mathematical skills + independent checker, drawing from people who excelled at data analysis and crisis prediction (Burry, Taleb, Mandelbrot, Lo, Wilmott, Simons, Thorp). One monolithic skill is weaker than specialised ownership with hard validation gate.
 
-**Status:** accepted + fully executed under free-hand authority.
+**Status:** accepted + fully executed under free-hand authority. (Bodies confirmed present 2026-08-24 later same day.)
 
 ### 2026-08-21 – business-reality-architect (Free-hand)
 
@@ -46,7 +64,7 @@ CURRENT-SKILLS.md updated (Process & Gate section + new Highest-Level Operating 
 **Rationale:**  
 The system lacked a hard, scored business/viability voice. product-impact-architect is necessary but softer. User explicitly requested a powerful skill that reduces low-value or undeliverable work and speaks with authority based on facts, logic and scores. This closes the highest-priority gap identified in the 2026-08-20 direction shift toward automation, tools for companies, deep thinking and working products.
 
-**Status:** accepted + fully executed under free-hand authority.
+**Status:** accepted + fully executed under free-hand authority. (Body confirmed present 2026-08-24.)
 
 ### 2026-08-20 – Retirement of Pure Game Skills (Direction Shift)
 
@@ -61,14 +79,14 @@ Permanently retired and removed:
 
 Also re-confirmed permanent removal of the four deprecated aliases (`decision-scorer`, `senior-browser`, `senior-coding`, `disabled`).
 
-**Status:** accepted + fully executed under free-hand authority.
+**Status:** accepted + fully executed under free-hand authority. (Note: ARPG skills later restored by explicit user direction 2026-08-24.)
 
 ### 2026-08-20 – Permanent Final Removal of Deprecated Aliases (User-directed hygiene)
 
 **Decision:**  
 Permanent removal of decision-scorer, senior-browser, senior-coding, disabled. Recreation forbidden.
 
-**Status:** accepted + fully executed.
+**Status:** accepted + fully executed. Leftover local folders removed again 2026-08-24.
 
 ### 2026-08-20 – Sustained Deep Work Contract (Free-hand)
 
@@ -81,5 +99,5 @@ Strengthened reasoning-depth-enforcer, optimal-decision-engine and system-engine
 
 *This file is part of the highest-level operating system. Update it automatically when durable decisions are made.*
 
-**Final state after 2026-08-24:**  
-Quant AI stock cluster live. Active skill count increased by 5. Direction remains automation / business tools / deep thinking / working products + personal high-level quant tools.
+**Final state after 2026-08-24 (bodies deployed):**  
+Quant AI stock cluster + business-reality-architect fully present locally and in inventory. Forbidden aliases removed. System consistent.
