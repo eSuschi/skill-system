@@ -42,6 +42,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **requirements-clarifier** – Use before implementation when a missing requirement or competing choice changes scope or architecture.
 - **product-impact-architect** – Define whether a product should be built: target user, real problem, differentiation, value proposition, impact, priorities and product direction before substantial implementation.
 - **business-reality-architect** – Firm business and viability voice. Scores usefulness, deliverability, real-world fit and risk with facts, logic and explicit 0–100 scores. Speaks directly and decisively (variant B) when a direction is weak or strong. Stands beside the work with important voice.
+- **strategic-path-engine** – Translates a known but incomplete product/project direction into exactly 2–3 scored next strategic moves. User only selects. Mutex with optimal-decision-engine. Does not invent product goals or choose tech/architecture/purchases.
 - **impact-hypothesis-tester** – Design a small, low-cost experiment to test an uncertain product-value or behavior hypothesis before committing to heavy implementation.
 - **project-decision-logger** – Record only durable project decisions that change architecture, scope, technology, release criteria or irreversible direction, including rationale and consequences.
 - **principal-code-review** – Perform deep adversarial code review for substantial or high-risk changes involving concurrency, async state, persistence, public APIs, resource lifecycles, error recovery or security-sensitive logic.
@@ -113,4 +114,4 @@ Skills activate automatically based on intent. The user should never need to ask
 **Re-activated / restored 2026-08-24 (user direction):**  
 ARPG domain skills (combat-feel, content-tools, loot-progression, visual-asset) + browser-game-expert. These remain active for Aetherstone and related work.
 
-*Last updated 2026-08-24. Active skill count increased by the quant cluster. Catalog includes new Quant / AI Stock System domain.*
+*Last updated 2026-08-24. Added strategic-path-engine to Process & Gate. Active skill count: 53.*
