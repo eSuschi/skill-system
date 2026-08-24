@@ -6,6 +6,26 @@
 
 ## Decision Log
 
+### 2026-08-24 – Full-chain audit after strategic-path-engine
+
+**Decision:**  
+Completed inventory, ownership and contract audit after adding strategic-path-engine.
+
+Findings and fixes applied:
+- Active count corrected 53 → **54** (Meta 8 + Process & Gate 16 + Domain 30).
+- **optimal-decision-engine** inventory line strengthened with explicit mutex vs strategic-path-engine.
+- New mandatory Operating Practice **Path Formalisation** (item 3): after impact/business-reality, when next step is still fuzzy → SPE only; never parallel with ODE on the same question.
+- SPE body, scoring model, GitHub path and local runtime path remain consistent.
+- No ownership collision found. Forbidden aliases stay permanently removed.
+- Repo `Grok/skills/` continues to hold only selected bodies (business-reality, quant cluster, SPE); inventory remains the authoritative catalog.
+
+Residual (non-blocking):
+- Local sandbox was capacity-blocked during audit; local folder enumeration could not be re-verified in this session. SPE was written earlier in-session to `/home/workdir/.grok/skills/strategic-path-engine/`.
+- business-reality-architect body does not yet name SPE in its integration list (inventory practice covers routing).
+- ODE has no separate SKILL.md body in the repo; mutex lives in inventory + SPE body.
+
+**Status:** accepted + executed.
+
 ### 2026-08-24 – strategic-path-engine (Process & Gate)
 
 **Decision:**  
@@ -19,7 +39,7 @@ After user selection: project-decision-logger → requirements-clarifier if scop
 
 Runtime body: `/home/workdir/.grok/skills/strategic-path-engine/` (SKILL.md + references/SCORING-MODEL.md). Repo copy under `Grok/skills/strategic-path-engine/`.
 
-Active skill count: 53.
+Active skill count at creation: 53 (later corrected to 54 by audit).
 
 **Status:** accepted + executed.
 
