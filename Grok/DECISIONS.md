@@ -6,6 +6,33 @@
 
 ## Decision Log
 
+### 2026-08-25 – quality-conductor + Excel senior pipeline (Free-hand)
+
+**Decision:**  
+Under explicit free-hand authority for highest results:
+
+1. **quality-conductor** added to Meta Layer. Continuously directs multi-skill work toward Quality Constitution Art. 1 ambition. Scores mid-pipeline, refuses mediocrity/bubbles, wakes specialists, integrates with all domain pipelines. Does not build domain artifacts. Complements system-engine, reasoning-depth-enforcer, autonomous-work-governor and release-gate.
+
+2. **Excel conversational senior pipeline** created as six specialised domain skills (not one fat skill):
+   - excel-intake-hygiene
+   - excel-structure-architect
+   - excel-formula-senior
+   - excel-presentation-craft
+   - excel-chart-master
+   - excel-delivery-auditor (hard veto gate)
+
+   Mandatory order. Auditor PASS required before any .xlsx is delivered. EXCEL-QUALITY-BAR.md is the checklist authority.
+
+3. Product direction locked: notepad/messy input → professional manager-ready .xlsx via multi-turn conversation, senior craft standard. Out of scope v1: VBA, Power Query, Power Pivot, Google Sheets, enterprise multi-file models.
+
+4. Bodies kept short and precise (≈45–55 lines). Tokens accepted for quality; bloat forbidden.
+
+5. Forbidden aliases decision-scorer / disabled removed again from local runtime.
+
+6. Active skill count after this decision: **63** (prior inventory 56 + quality-conductor + 6 Excel).
+
+**Status:** accepted + executed under free-hand authority.
+
 ### 2026-08-25 – autonomous-work-governor (session contract)
 
 **Decision:**
