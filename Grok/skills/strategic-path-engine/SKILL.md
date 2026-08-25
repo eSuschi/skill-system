@@ -5,7 +5,7 @@ metadata:
   author: eSuschi
   short-description: 2-3 scored next strategic moves from a known direction
   layer: process-gate
-  version: "1.0"
+  version: "1.1"
 user-invocable: true
 ---
 
@@ -31,6 +31,7 @@ Hard mutex: never send the same question to this skill and `optimal-decision-eng
 | strategic-path-engine | sequencing a known direction into 2-3 moves | new product goal; tech/arch/purchase choice |
 | requirements-clarifier | missing requirement that changes scope | strategy |
 | optimal-decision-engine | choice among already defined options | translating intuition into a path |
+| definition-of-done-architect | measurable acceptance criteria for a chosen slice | strategy or tech choice |
 | project-decision-logger | durable record of the selected decision | scoring options |
 | system-engine | routing and precedence | domain content |
 
@@ -68,14 +69,15 @@ Same structure.
 One sentence: preferred option + one-line reason.
 
 **Immediate next action if selected**
-Exact hand-off only. Allowed targets: `requirements-clarifier`, `product-impact-architect`, `business-reality-architect`, `optimal-decision-engine`, `project-decision-logger`, or a named implementation owner. Never "do everything".
+Exact hand-off only. Allowed targets: `definition-of-done-architect`, `requirements-clarifier`, `product-impact-architect`, `business-reality-architect`, `optimal-decision-engine`, `project-decision-logger`, or a named implementation owner. Never "do everything".
 
 ## After the user selects
 
 1. Log the durable decision with `project-decision-logger`.
-2. If a scope/architecture requirement is missing → `requirements-clarifier`.
-3. If the move has become a closed choice among defined alternatives → `optimal-decision-engine`.
-4. Otherwise hand to the named domain owner in the selected option.
+2. If acceptance criteria for the chosen slice are missing → `definition-of-done-architect`.
+3. If a scope/architecture requirement is missing → `requirements-clarifier`.
+4. If the move has become a closed choice among defined alternatives → `optimal-decision-engine`.
+5. Otherwise hand to the named domain owner in the selected option.
 
 ## Scoring
 
