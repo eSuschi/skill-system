@@ -6,6 +6,24 @@
 
 ## Decision Log
 
+### 2026-08-25 – autonomous-work-governor (session contract)
+
+**Decision:**
+Created **autonomous-work-governor** as Meta-layer owner of the live work session. It does not build the product. It enforces endurance, internal inquiry, scored defaults and a hard interrupt gate.
+
+Rules locked:
+1. Interrupt the user only on irreversible and costly forks with residual confidence still below High after tools and Internal Inquiry.
+2. Mid-session requirements-clarifier loops are forbidden. Clarifier is first-contact only.
+3. Inside live execution, optimal-decision-engine uses FAST scoring only. Standalone clarification loop is forbidden.
+4. Reversible micro-forks are auto-scored and executed. Permission theatre is a defect.
+5. Project-agnostic. Hard Logic is not the system default.
+6. Durable memory for work stays in DECISIONS.md + project-decision-logger, not in a second personal-memory skill.
+7. During live execution, strategic-path-engine’s top Composite is auto-taken unless the move is irreversible and costly.
+
+Active count: **56**.
+
+**Status:** accepted + executed.
+
 ### 2026-08-25 – definition-of-done-architect + English-only + local hygiene restore
 
 **Decision:**  
@@ -19,7 +37,7 @@ Under full autonomy for performance and quality:
    - Permanently deleted again: `decision-scorer`, `disabled`
    - Restored/created local bodies: strategic-path-engine (+ scoring model), business-reality-architect, quant cluster (5), arpg-visual-asset-architect, definition-of-done-architect
 
-4. Active skill count: **55** (Meta 8 + Process & Gate 17 + Domain 30).
+4. Active skill count at that moment: **55** (Meta 8 + Process & Gate 17 + Domain 30).
 
 5. SPE hand-off list updated to prefer definition-of-done-architect when acceptance criteria are missing after path selection.
 
@@ -54,7 +72,7 @@ Hard mutex with **optimal-decision-engine**: the same question never goes to bot
 
 After user selection: project-decision-logger → definition-of-done-architect if criteria missing → requirements-clarifier if scope missing → ODE only if the move became a closed choice → otherwise named domain owner. The skill does not execute the move.
 
-**Status:** accepted + executed.
+**Status:** accepted + executed. Amended 2026-08-25: during live execution under autonomous-work-governor, auto-take top Composite unless irreversible and costly.
 
 ### 2026-08-24 – Multi-AI folder separation (Grok/)
 
