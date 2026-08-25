@@ -20,12 +20,14 @@ Skills activate automatically based on intent. The user should never need to ask
 1. **Automatic Impact Filter** – Activate product-impact-architect early on almost every non-trivial product idea.
 2. **Business Reality Voice** – Activate business-reality-architect on new product ideas, major scope changes and early direction decisions. It provides firm, scored viability judgement without blocking the pipeline by default.
 3. **Path Formalisation** – When direction exists (after impact and/or business-reality) but the next step is still fuzzy, activate **strategic-path-engine** for exactly 2–3 scored moves. User only selects. Never run it in parallel with optimal-decision-engine on the same question.
-4. **Project Decision Log** – For multi-session or architecturally significant projects, maintain a short `DECISIONS.md` (template in `/templates/DECISIONS.md`) in the project repository. Record only durable decisions. Supported by **project-decision-logger**.
-5. **Mandatory Learning** – After Release Gate on non-trivial work, run **post-ship-learning-injector**. System Engine, skill-evolution-engine and **system-learning-core** use the results (Quality Constitution Art. 5).
-6. **Skill Hygiene** – Keep the skill set clean. Long-term ownership belongs to **system-engine** + **skill-hygiene-enforcer** (Art. 6).
-7. **Energy Allocation** – Autonomy frees attention for deeper first-principles thinking and higher ambition.
-8. **Quality Constitution** – Final deliverables and all structural changes must satisfy the Constitution. Ambition bar (Art. 1) is non-negotiable. Contracts are law (Art. 4).
-9. **Sustained Deep Work** – During active project work prefer meaningful closed progress per turn, strict turn-ending rules (no open “co dalej?”), and artifact continuity so the user is not forced to reply every few minutes.
+4. **Definition of Done** – After a path or slice is chosen and before substantial implementation or release-gate, activate **definition-of-done-architect** so acceptance criteria are measurable and anti-scope is explicit.
+5. **Project Decision Log** – For multi-session or architecturally significant projects, maintain a short `DECISIONS.md` (template in `/templates/DECISIONS.md`) in the project repository. Record only durable decisions. Supported by **project-decision-logger**.
+6. **Mandatory Learning** – After Release Gate on non-trivial work, run **post-ship-learning-injector**. System Engine, skill-evolution-engine and **system-learning-core** use the results (Quality Constitution Art. 5).
+7. **Skill Hygiene** – Keep the skill set clean. Long-term ownership belongs to **system-engine** + **skill-hygiene-enforcer** (Art. 6).
+8. **Energy Allocation** – Autonomy frees attention for deeper first-principles thinking and higher ambition.
+9. **Quality Constitution** – Final deliverables and all structural changes must satisfy the Constitution. Ambition bar (Art. 1) is non-negotiable. Contracts are law (Art. 4).
+10. **Sustained Deep Work** – During active project work prefer meaningful closed progress per turn, strict turn-ending rules (no open “co dalej?”), and artifact continuity so the user is not forced to reply every few minutes.
+11. **English-only skill bodies** – All SKILL.md bodies, frontmatter, inventory lines, scoring models and cross-skill contracts are English-only. User conversation may be Polish. No bilingual skill bodies.
 
 ## Meta Layer
 
@@ -44,6 +46,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **product-impact-architect** – Define whether a product should be built: target user, real problem, differentiation, value proposition, impact, priorities and product direction before substantial implementation.
 - **business-reality-architect** – Firm business and viability voice. Scores usefulness, deliverability, real-world fit and risk with facts, logic and explicit 0–100 scores. Speaks directly and decisively (variant B) when a direction is weak or strong. Stands beside the work with important voice.
 - **strategic-path-engine** – Translates a known but incomplete product/project direction into exactly 2–3 scored next strategic moves. User only selects. Mutex with optimal-decision-engine. Does not invent product goals or choose tech/architecture/purchases.
+- **definition-of-done-architect** – Builds measurable acceptance criteria and a hard Definition of Done for a chosen path or implementation slice. Includes anti-criteria. Feeds release-gate and implementers. Does not invent goals or choose tech.
 - **impact-hypothesis-tester** – Design a small, low-cost experiment to test an uncertain product-value or behavior hypothesis before committing to heavy implementation.
 - **project-decision-logger** – Record only durable project decisions that change architecture, scope, technology, release criteria or irreversible direction, including rationale and consequences.
 - **principal-code-review** – Perform deep adversarial code review for substantial or high-risk changes involving concurrency, async state, persistence, public APIs, resource lifecycles, error recovery or security-sensitive logic.
@@ -110,9 +113,9 @@ Skills activate automatically based on intent. The user should never need to ask
 ---
 
 **Permanently removed (do not recreate):**  
-- decision-scorer, senior-browser, senior-coding, disabled (aliases, 2026-08-20). Local folders deleted 2026-08-24.
+- decision-scorer, senior-browser, senior-coding, disabled (aliases, 2026-08-20). Local folders deleted again 2026-08-25 after residual reappearance.
 
 **Re-activated / restored 2026-08-24 (user direction):**  
 ARPG domain skills (combat-feel, content-tools, loot-progression, visual-asset) + browser-game-expert. These remain active for Aetherstone and related work.
 
-*Last updated 2026-08-24 (full-chain audit). Active skill count: 54. strategic-path-engine registered in Process & Gate; ODE mutex and Path Formalisation practice added.*
+*Last updated 2026-08-25. Active skill count: 55. Added definition-of-done-architect; English-only skill bodies rule; local hygiene restore (SPE, BRA, quant cluster, arpg-visual); forbidden aliases removed again.*
