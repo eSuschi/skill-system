@@ -15,6 +15,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - Execution modes: FAST ≤ 1 full body | PRO ≤ 3 | MAX = sequential owners (never load-all).
 - `reasoning-depth-enforcer` raises reasoning quality inside the current owner — it does **not** expand the skill chain.
 - `autonomous-work-governor` owns the live session contract (endurance, internal inquiry, interrupt gate) — it does **not** expand the skill chain.
+- `quality-conductor` supplies continuous mid-pipeline ambition pressure and may refuse mediocrity; it does not replace domain specialists or release-gate.
 
 ## Highest-Level Operating Practices (mandatory)
 
@@ -29,6 +30,7 @@ Skills activate automatically based on intent. The user should never need to ask
 9. **Quality Constitution** – Final deliverables and all structural changes must satisfy the Constitution. Ambition bar (Art. 1) is non-negotiable. Contracts are law (Art. 4).
 10. **Sustained Deep Work** – During active project work, autonomous-work-governor owns turn law. Closed progress per turn. Interrupt only on irreversible costly forks after Internal Inquiry. No open continue prompts. Artifact continuity so the user is not a stepper motor.
 11. **English-only skill bodies** – All SKILL.md bodies, frontmatter, inventory lines, scoring models and cross-skill contracts are English-only. User conversation may be Polish. No bilingual skill bodies.
+12. **Continuous Quality Direction** – On non-trivial multi-skill work, **quality-conductor** keeps ambition bar pressure mid-pipeline and may return mediocre intermediate outputs before release-gate.
 
 ## Meta Layer
 
@@ -36,6 +38,7 @@ Skills activate automatically based on intent. The user should never need to ask
 - **system-learning-core** – Retrieves validated lessons and risks from prior projects when they could materially change the current plan, validation or risk handling. Return only the 1–3 most relevant lessons.
 - **workflow-orchestrator** – Design the minimal end-to-end multi-skill workflow when one project spans requirements, architecture, implementation, security/testing and release or otherwise requires coordinated hand-offs between distinct owners.
 - **autonomous-work-governor** – Own the active work session so the agent executes longer, asks internally first, scores forks, and interrupts the user only for irreversible costly decisions. Use on any project execution, implementation, design, hardening or multi-step build when short-turn yes/no spam, mid-session clarification loops or premature yielding appear.
+- **quality-conductor** – Continuously direct multi-skill work toward the highest achievable result. Enforce ambition bar mid-pipeline, refuse mediocrity, wake the right specialist, keep domain pipelines coherent. Meta-layer conductor, not a domain builder.
 - **reasoning-depth-enforcer** – Apply deeper first-principles analysis and sustained autonomous execution on non-trivial work so shallow thinking and frequent short turns become rare; do not add skills by default.
 - **skill-evolution-engine** – Maintenance-only. Analyze repeated execution traces, eval results, missed triggers, false triggers and quality outcomes to improve, merge or create skills when evidence shows a durable gap.
 - **skill-hygiene-enforcer** – Maintenance-only. Audit the skill catalog for duplicates, stale aliases, deprecated entries, ownership collisions and source-of-truth drift when skills are added, removed, renamed or reorganized.
@@ -79,6 +82,16 @@ Skills activate automatically based on intent. The user should never need to ask
 - **live-presentation-orchestrator** – Own the live presenter-session workflow for Excel/PowerPoint: voice navigation, named views, zoom, scrolling, sheet/slide control and mapping audience questions to on-screen actions.
 - **live-presentation-hardener** – Near release, harden AI Meeting Buddy or Office companion software for COM stability, latency, reload recovery, local/offline behavior and large-screen presentation use.
 
+### Excel Senior Conversational Pipeline
+- **excel-intake-hygiene** – Turn messy notepad text, CSV fragments or verbal descriptions into a clean, typed data model with explicit assumptions. Never invent numbers. First step.
+- **excel-structure-architect** – Design professional workbook architecture — sheets, named tables, input/assumptions/calc/output separation, naming conventions. Second step.
+- **excel-formula-senior** – Write senior-level Excel formulas — structured references, LET, dynamic arrays, no magic numbers, readable and maintainable. Third step.
+- **excel-presentation-craft** – Professional number formats, layout, print readiness and visual hierarchy so the workbook can be sent to a manager without embarrassment. Fourth step.
+- **excel-chart-master** – Senior Excel chart craft — correct chart type, table-bound series, declutter, honest axes, clear titles. When visualisation is required.
+- **excel-delivery-auditor** – Hard PASS/FAIL gate for every Excel file before user delivery. Checklist-driven veto. Final step. Authority: EXCEL-QUALITY-BAR.
+
+Mandatory order: intake → structure → formula → presentation → chart (if needed) → delivery-auditor. quality-conductor may intervene after any step.
+
 ### Systems & Interactive
 - **principal-engine-architect** – Design reusable modular system / runtime architecture: subsystems, boundaries, lifecycle, data flow, extensibility, performance and engine-level implementation.
 - **engine-ai-native-layer** – Add AI-native authoring and control interfaces to an existing modular system: declarative commands, agent APIs, validation hooks and AI-friendly content workflows.
@@ -120,4 +133,4 @@ Skills activate automatically based on intent. The user should never need to ask
 **Re-activated / restored 2026-08-24 (user direction):**  
 ARPG domain skills (combat-feel, content-tools, loot-progression, visual-asset) + browser-game-expert. These remain active for Aetherstone and related work.
 
-*Last updated 2026-08-25. Active skill count: 56. Added autonomous-work-governor as Meta session owner; clarifier first-contact only; live-execution auto-score rule.*
+*Last updated 2026-08-25. Active skill count: 63. Added quality-conductor (Meta) + Excel senior conversational pipeline (6 skills). Free-hand decision for highest results.*
