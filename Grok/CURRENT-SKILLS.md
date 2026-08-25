@@ -13,20 +13,21 @@ Skills activate automatically based on intent. The user should never need to ask
 - Precedence: exact project > exact artifact/domain > stage-specific specialist > generic fallback.
 - One primary owner + support only when a concrete risk or acceptance criterion remains uncovered.
 - Execution modes: FAST ≤ 1 full body | PRO ≤ 3 | MAX = sequential owners (never load-all).
-- `reasoning-depth-enforcer` raises reasoning quality and execution endurance / progress density — it does **not** expand the skill chain.
+- `reasoning-depth-enforcer` raises reasoning quality inside the current owner — it does **not** expand the skill chain.
+- `autonomous-work-governor` owns the live session contract (endurance, internal inquiry, interrupt gate) — it does **not** expand the skill chain.
 
 ## Highest-Level Operating Practices (mandatory)
 
 1. **Automatic Impact Filter** – Activate product-impact-architect early on almost every non-trivial product idea.
 2. **Business Reality Voice** – Activate business-reality-architect on new product ideas, major scope changes and early direction decisions. It provides firm, scored viability judgement without blocking the pipeline by default.
-3. **Path Formalisation** – When direction exists (after impact and/or business-reality) but the next step is still fuzzy, activate **strategic-path-engine** for exactly 2–3 scored moves. User only selects. Never run it in parallel with optimal-decision-engine on the same question.
+3. **Path Formalisation** – When direction exists (after impact and/or business-reality) but the next step is still fuzzy, activate **strategic-path-engine** for exactly 2–3 scored moves. During live execution, autonomous-work-governor auto-takes the top Composite unless the move is irreversible and costly. Never run SPE in parallel with optimal-decision-engine on the same question.
 4. **Definition of Done** – After a path or slice is chosen and before substantial implementation or release-gate, activate **definition-of-done-architect** so acceptance criteria are measurable and anti-scope is explicit.
 5. **Project Decision Log** – For multi-session or architecturally significant projects, maintain a short `DECISIONS.md` (template in `/templates/DECISIONS.md`) in the project repository. Record only durable decisions. Supported by **project-decision-logger**.
 6. **Mandatory Learning** – After Release Gate on non-trivial work, run **post-ship-learning-injector**. System Engine, skill-evolution-engine and **system-learning-core** use the results (Quality Constitution Art. 5).
 7. **Skill Hygiene** – Keep the skill set clean. Long-term ownership belongs to **system-engine** + **skill-hygiene-enforcer** (Art. 6).
 8. **Energy Allocation** – Autonomy frees attention for deeper first-principles thinking and higher ambition.
 9. **Quality Constitution** – Final deliverables and all structural changes must satisfy the Constitution. Ambition bar (Art. 1) is non-negotiable. Contracts are law (Art. 4).
-10. **Sustained Deep Work** – During active project work prefer meaningful closed progress per turn, strict turn-ending rules (no open “co dalej?”), and artifact continuity so the user is not forced to reply every few minutes.
+10. **Sustained Deep Work** – During active project work, autonomous-work-governor owns turn law. Closed progress per turn. Interrupt only on irreversible costly forks after Internal Inquiry. No open continue prompts. Artifact continuity so the user is not a stepper motor.
 11. **English-only skill bodies** – All SKILL.md bodies, frontmatter, inventory lines, scoring models and cross-skill contracts are English-only. User conversation may be Polish. No bilingual skill bodies.
 
 ## Meta Layer
@@ -34,18 +35,19 @@ Skills activate automatically based on intent. The user should never need to ask
 - **system-engine** – Governs skill routing, precedence, execution mode and system-wide quality policy. Use when work requires choosing or coordinating skills; it does not perform domain execution.
 - **system-learning-core** – Retrieves validated lessons and risks from prior projects when they could materially change the current plan, validation or risk handling. Return only the 1–3 most relevant lessons.
 - **workflow-orchestrator** – Design the minimal end-to-end multi-skill workflow when one project spans requirements, architecture, implementation, security/testing and release or otherwise requires coordinated hand-offs between distinct owners.
+- **autonomous-work-governor** – Own the active work session so the agent executes longer, asks internally first, scores forks, and interrupts the user only for irreversible costly decisions. Use on any project execution, implementation, design, hardening or multi-step build when short-turn yes/no spam, mid-session clarification loops or premature yielding appear.
 - **reasoning-depth-enforcer** – Apply deeper first-principles analysis and sustained autonomous execution on non-trivial work so shallow thinking and frequent short turns become rare; do not add skills by default.
 - **skill-evolution-engine** – Maintenance-only. Analyze repeated execution traces, eval results, missed triggers, false triggers and quality outcomes to improve, merge or create skills when evidence shows a durable gap.
 - **skill-hygiene-enforcer** – Maintenance-only. Audit the skill catalog for duplicates, stale aliases, deprecated entries, ownership collisions and source-of-truth drift when skills are added, removed, renamed or reorganized.
 - **cross-skill-contract-validator** – Structural-gate only. Validate ownership, inputs, outputs, precedence, cycles and hand-off contracts whenever a skill or pipeline structure is changed.
-- **optimal-decision-engine** – Choose between meaningful options such as technologies, platforms, architectures or operational alternatives that are already defined. Define criteria, score trade-offs 0–100, compare confidence and recommend the best option. (Includes FAST mode for quick 0–100 evaluations.) Mutex with **strategic-path-engine**: do not activate for still-fuzzy path formalisation; that is SPE.
+- **optimal-decision-engine** – Choose between meaningful options such as technologies, platforms, architectures or operational alternatives that are already defined. Define criteria, score trade-offs 0–100, compare confidence and recommend the best option. (Includes FAST mode for quick 0–100 evaluations.) Mutex with **strategic-path-engine**: do not activate for still-fuzzy path formalisation; that is SPE. Inside live execution, FAST scoring only.
 
 ## Process & Gate Skills (auto-activated)
 
-- **requirements-clarifier** – Use before implementation when a missing requirement or competing choice changes scope or architecture.
+- **requirements-clarifier** – First contact only, when a missing requirement or competing choice would change scope or architecture. Mid-session loops are forbidden; autonomous-work-governor owns interrupts.
 - **product-impact-architect** – Define whether a product should be built: target user, real problem, differentiation, value proposition, impact, priorities and product direction before substantial implementation.
 - **business-reality-architect** – Firm business and viability voice. Scores usefulness, deliverability, real-world fit and risk with facts, logic and explicit 0–100 scores. Speaks directly and decisively (variant B) when a direction is weak or strong. Stands beside the work with important voice.
-- **strategic-path-engine** – Translates a known but incomplete product/project direction into exactly 2–3 scored next strategic moves. User only selects. Mutex with optimal-decision-engine. Does not invent product goals or choose tech/architecture/purchases.
+- **strategic-path-engine** – Translates a known but incomplete product/project direction into exactly 2–3 scored next strategic moves. During live execution the top Composite is auto-taken unless irreversible and costly. Mutex with optimal-decision-engine. Does not invent product goals or choose tech/architecture/purchases.
 - **definition-of-done-architect** – Builds measurable acceptance criteria and a hard Definition of Done for a chosen path or implementation slice. Includes anti-criteria. Feeds release-gate and implementers. Does not invent goals or choose tech.
 - **impact-hypothesis-tester** – Design a small, low-cost experiment to test an uncertain product-value or behavior hypothesis before committing to heavy implementation.
 - **project-decision-logger** – Record only durable project decisions that change architecture, scope, technology, release criteria or irreversible direction, including rationale and consequences.
@@ -118,4 +120,4 @@ Skills activate automatically based on intent. The user should never need to ask
 **Re-activated / restored 2026-08-24 (user direction):**  
 ARPG domain skills (combat-feel, content-tools, loot-progression, visual-asset) + browser-game-expert. These remain active for Aetherstone and related work.
 
-*Last updated 2026-08-25. Active skill count: 55. Added definition-of-done-architect; English-only skill bodies rule; local hygiene restore (SPE, BRA, quant cluster, arpg-visual); forbidden aliases removed again.*
+*Last updated 2026-08-25. Active skill count: 56. Added autonomous-work-governor as Meta session owner; clarifier first-contact only; live-execution auto-score rule.*
