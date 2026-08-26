@@ -1,6 +1,7 @@
 # Catalog lock — 2026-08-26
 
-Active skill count: 63
-Forbidden: decision-scorer, disabled, senior-browser, senior-coding
+Active catalog: portable 27-skill system.
+Authoritative inventory: ../CURRENT-SKILLS.md
+Legacy snapshot: ../../archive/2026-08-26-legacy-63-catalog/
 
-This directory must contain a SKILL.md for every name in Grok/CURRENT-SKILLS.md except the permanently removed aliases.
+Do not reactivate archived skills without a new authorized decision.
