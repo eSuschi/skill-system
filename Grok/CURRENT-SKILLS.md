@@ -1,136 +1,75 @@
-# Current Highest-Level Skills
+# Current Skills
 
-This file is the authoritative inventory of active skills used in the operating system.
+This file is the authoritative inventory of the working catalog.
 
-**Supreme document:** [QUALITY-CONSTITUTION.md](./QUALITY-CONSTITUTION.md)  
-Every skill and every deliverable is subordinate to it.
+**Operating contract:** [WORKING-AGREEMENT.md](./WORKING-AGREEMENT.md)
+**Quality principles:** [QUALITY-CONSTITUTION.md](./QUALITY-CONSTITUTION.md)
 
-**Core operating principle:**  
-Skills activate automatically based on intent. The user should never need to ask Grok to "run skill X". The same applies to external sources (GitHub, web search, etc.). Grok selects and sequences the right specialists and tools proactively at the highest professional level.
+## Routing principles
 
-**2.2 Efficiency Principles (mandatory):**
-- Specialized Value Test first → `NO_SKILL` is a valid and preferred outcome for simple requests.
-- Precedence: exact project > exact artifact/domain > stage-specific specialist > generic fallback.
-- One primary owner + support only when a concrete risk or acceptance criterion remains uncovered.
-- Execution modes: FAST ≤ 1 full body | PRO ≤ 3 | MAX = sequential owners (never load-all).
-- `reasoning-depth-enforcer` raises reasoning quality inside the current owner — it does **not** expand the skill chain.
-- `autonomous-work-governor` owns the live session contract (endurance, internal inquiry, interrupt gate) — it does **not** expand the skill chain.
-- `quality-conductor` supplies continuous mid-pipeline ambition pressure and may refuse mediocrity; it does not replace domain specialists or release-gate.
+- `NO_SKILL` is preferred when specialized procedure adds no material value.
+- Precedence: exact project owner → exact domain owner → stage specialist → generic fallback.
+- Keep one accountable lead or integrator per phase. Add every specialist needed for a distinct deliverable, risk or acceptance criterion.
+- `system-engine` is the only coordination brain. Use it when interacting owners, domains or phases materially need integration, or on explicit end-to-end coordination. There is no arbitrary skill-count threshold.
+- Ask one focused question when a missing fact could materially change scope, output, authority, cost or an irreversible action. No dedicated clarification skill is required.
+- Numeric scores require defined criteria and evidence. Missing data creates uncertainty, not invented precision.
+- Reviews, gates, memory capture and catalog maintenance are conditional, not universal pipeline steps.
 
-## Highest-Level Operating Practices (mandatory)
+## Meta and decision layer (6)
 
-1. **Automatic Impact Filter** – Activate product-impact-architect early on almost every non-trivial product idea.
-2. **Business Reality Voice** – Activate business-reality-architect on new product ideas, major scope changes and early direction decisions. It provides firm, scored viability judgement without blocking the pipeline by default.
-3. **Path Formalisation** – When direction exists (after impact and/or business-reality) but the next step is still fuzzy, activate **strategic-path-engine** for exactly 2–3 scored moves. During live execution, autonomous-work-governor auto-takes the top Composite unless the move is irreversible and costly. Never run SPE in parallel with optimal-decision-engine on the same question.
-4. **Definition of Done** – After a path or slice is chosen and before substantial implementation or release-gate, activate **definition-of-done-architect** so acceptance criteria are measurable and anti-scope is explicit.
-5. **Project Decision Log** – For multi-session or architecturally significant projects, maintain a short `DECISIONS.md` (template in `/templates/DECISIONS.md`) in the project repository. Record only durable decisions. Supported by **project-decision-logger**.
-6. **Mandatory Learning** – After Release Gate on non-trivial work, run **post-ship-learning-injector**. System Engine, skill-evolution-engine and **system-learning-core** use the results (Quality Constitution Art. 5).
-7. **Skill Hygiene** – Keep the skill set clean. Long-term ownership belongs to **system-engine** + **skill-hygiene-enforcer** (Art. 6).
-8. **Energy Allocation** – Autonomy frees attention for deeper first-principles thinking and higher ambition.
-9. **Quality Constitution** – Final deliverables and all structural changes must satisfy the Constitution. Ambition bar (Art. 1) is non-negotiable. Contracts are law (Art. 4).
-10. **Sustained Deep Work** – During active project work, autonomous-work-governor owns turn law. Closed progress per turn. Interrupt only on irreversible costly forks after Internal Inquiry. No open continue prompts. Artifact continuity so the user is not a stepper motor.
-11. **English-only skill bodies** – All SKILL.md bodies, frontmatter, inventory lines, scoring models and cross-skill contracts are English-only. User conversation may be Polish. No bilingual skill bodies.
-12. **Continuous Quality Direction** – On non-trivial multi-skill work, **quality-conductor** keeps ambition bar pressure mid-pipeline and may return mediocre intermediate outputs before release-gate.
+- **system-engine** — Single bounded coordination brain for substantial IT work; selects the smallest sufficient expert team, integrates dependencies and protects evidence before token cost.
+- **project-memory-curator** — Retrieve and, only with authorization, persist sourced project decisions and validated lessons that materially affect current work.
+- **skill-evolution-engine** — Analyze execution evidence and propose catalog improvements; never change the catalog without authorization.
+- **skill-hygiene-enforcer** — Audit inventory cleanliness after authorized additions, removals, renames or reorganizations.
+- **cross-skill-contract-validator** — Validate ownership, triggers, handoffs and routing when catalog structure changes.
+- **evidence-decision-engine** — Shape or compare consequential technical, operational, vendor, purchase and project paths using evidence, uncertainty and reversibility without forced scoring.
 
-## Meta Layer
+## Product, assurance and operations layer (9)
 
-- **system-engine** – Governs skill routing, precedence, execution mode and system-wide quality policy. Use when work requires choosing or coordinating skills; it does not perform domain execution.
-- **system-learning-core** – Retrieves validated lessons and risks from prior projects when they could materially change the current plan, validation or risk handling. Return only the 1–3 most relevant lessons.
-- **workflow-orchestrator** – Design the minimal end-to-end multi-skill workflow when one project spans requirements, architecture, implementation, security/testing and release or otherwise requires coordinated hand-offs between distinct owners.
-- **autonomous-work-governor** – Own the active work session so the agent executes longer, asks internally first, scores forks, and interrupts the user only for irreversible costly decisions. Use on any project execution, implementation, design, hardening or multi-step build when short-turn yes/no spam, mid-session clarification loops or premature yielding appear.
-- **quality-conductor** – Continuously direct multi-skill work toward the highest achievable result. Enforce ambition bar mid-pipeline, refuse mediocrity, wake the right specialist, keep domain pipelines coherent. Meta-layer conductor, not a domain builder.
-- **reasoning-depth-enforcer** – Apply deeper first-principles analysis and sustained autonomous execution on non-trivial work so shallow thinking and frequent short turns become rare; do not add skills by default.
-- **skill-evolution-engine** – Maintenance-only. Analyze repeated execution traces, eval results, missed triggers, false triggers and quality outcomes to improve, merge or create skills when evidence shows a durable gap.
-- **skill-hygiene-enforcer** – Maintenance-only. Audit the skill catalog for duplicates, stale aliases, deprecated entries, ownership collisions and source-of-truth drift when skills are added, removed, renamed or reorganized.
-- **cross-skill-contract-validator** – Structural-gate only. Validate ownership, inputs, outputs, precedence, cycles and hand-off contracts whenever a skill or pipeline structure is changed.
-- **optimal-decision-engine** – Choose between meaningful options such as technologies, platforms, architectures or operational alternatives that are already defined. Define criteria, score trade-offs 0–100, compare confidence and recommend the best option. (Includes FAST mode for quick 0–100 evaluations.) Mutex with **strategic-path-engine**: do not activate for still-fuzzy path formalisation; that is SPE. Inside live execution, FAST scoring only.
+- **product-impact-architect** — Decide whether a product or major pivot deserves investment, including user value, alternatives, viability, maintenance and opportunity cost.
+- **definition-of-done-architect** — Create measurable acceptance criteria for an already-chosen implementation slice.
+- **impact-hypothesis-tester** — Design a low-cost experiment for an uncertain product-value hypothesis.
+- **principal-code-review** — Independently review substantial or high-risk code for deep correctness and design defects.
+- **product-readiness-auditor** — Independently audit a stable consequential candidate and issue evidence-backed PASS, FAIL or NOT READY against explicit criteria and relevant risks.
+- **recovery-resilience-orchestrator** — Design recovery, persistence, offline fallback and graceful degradation for stateful products.
+- **adversarial-user-simulator** — Stress interactive flows with realistic chaotic and edge-case behavior.
+- **zero-trust-security-hardener** — Harden real trust boundaries involving secrets, untrusted input, authentication, persistence or privileged APIs.
+- **observability-telemetry-architect** — Design logs, metrics, traces and health signals needed to operate long-running systems.
 
-## Process & Gate Skills (auto-activated)
+## Domain and project execution layer (12)
 
-- **requirements-clarifier** – First contact only, when a missing requirement or competing choice would change scope or architecture. Mid-session loops are forbidden; autonomous-work-governor owns interrupts.
-- **product-impact-architect** – Define whether a product should be built: target user, real problem, differentiation, value proposition, impact, priorities and product direction before substantial implementation.
-- **business-reality-architect** – Firm business and viability voice. Scores usefulness, deliverability, real-world fit and risk with facts, logic and explicit 0–100 scores. Speaks directly and decisively (variant B) when a direction is weak or strong. Stands beside the work with important voice.
-- **strategic-path-engine** – Translates a known but incomplete product/project direction into exactly 2–3 scored next strategic moves. During live execution the top Composite is auto-taken unless irreversible and costly. Mutex with optimal-decision-engine. Does not invent product goals or choose tech/architecture/purchases.
-- **definition-of-done-architect** – Builds measurable acceptance criteria and a hard Definition of Done for a chosen path or implementation slice. Includes anti-criteria. Feeds release-gate and implementers. Does not invent goals or choose tech.
-- **impact-hypothesis-tester** – Design a small, low-cost experiment to test an uncertain product-value or behavior hypothesis before committing to heavy implementation.
-- **project-decision-logger** – Record only durable project decisions that change architecture, scope, technology, release criteria or irreversible direction, including rationale and consequences.
-- **principal-code-review** – Perform deep adversarial code review for substantial or high-risk changes involving concurrency, async state, persistence, public APIs, resource lifecycles, error recovery or security-sensitive logic.
-- **final-code-auditor** – Audit a stable release candidate for broken functionality, missing edge cases, language/visual defects, security basics and release-blocking implementation gaps; use after build stabilization, not every edit.
-- **release-gate** – Issue the final PASS or FAIL for a release candidate against explicit acceptance criteria and validator evidence; return a bounded defect list on failure.
-- **post-ship-learning-injector** – After a non-trivial release PASS, extract at most 1–3 novel reusable candidate lessons with source, scope and confidence for later validation.
-- **failure-mode-anticipator** – Before release, predict how a stateful or operational product may fail or degrade after weeks or months of real use, updates, stale state, persistence issues or external-dependency drift.
-- **cross-domain-consistency-enforcer** – Near release, compare multiple domains of one product for uneven quality or conflicting standards across UX, reliability, security, performance or other material areas.
-- **recovery-resilience-orchestrator** – Design crash/reload recovery, offline fallback, session resurrection, state restoration and graceful degradation for applications with recoverable persistent state.
-- **adversarial-user-simulator** – After core interactive flows work, stress-test state, validation and recovery with realistic chaotic, edge-case and deliberately adversarial user behavior.
-- **zero-trust-security-hardener** – Harden real attack surfaces involving authentication, secrets, untrusted input/files, network calls, persistence, privileged APIs or sensitive data using least privilege and secure defaults.
-- **observability-telemetry-architect** – Add production diagnostics for long-running systems: structured logging, metrics, traces, health signals and troubleshooting surfaces needed after deployment.
+### Software and websites
 
-## Domain Specialists
+- **senior-software-engineer** — Generic implementation owner for backend, API, full-stack, desktop, mobile, testing, databases and deployment when no exact specialist owns the work.
+- **advanced-website-expert** — Build or materially redesign professional websites and interactive web experiences with responsive frontend, accessibility, performance and conversion-aware implementation. Primary website owner for Werczi.
+- **conversion-website-auditor** — Audit a stable business or landing website for message match, proof, trust, CTA friction and conversion paths.
 
-### Software Engineering
-- **senior-software-engineer** – Fallback software implementation skill for backend/API, full-stack, architecture, debugging, tests, databases and deployment when no project-specific or domain-specific skill owns the deliverable.
+### Engine and PC game
 
-### Websites
-- **advanced-website-expert** – Build or materially redesign professional business, marketing, SaaS, portfolio or landing websites with responsive frontend, SEO, performance and conversion-oriented implementation.
-- **business-site-studio** – Project-specific owner for the Business Site Studio application, including its product flow, website-generation features, editor behavior, exports and codebase-specific evolution.
-- **conversion-website-auditor** – Audit an existing or stable business/landing website to explain weak conversion and improve message match, proof, differentiation, trust, CTA friction and conversion paths.
+- **principal-engine-architect** — Design reusable modular engine or runtime architecture, subsystem boundaries, lifecycle, data flow, extensibility and performance.
+- **engine-ai-native-layer** — Add AI-friendly authoring, validation and control interfaces to an existing modular engine.
+- **interactive-experience-architect** — Improve interaction flow, feedback, statefulness, transitions and experiential polish in a functioning interactive product.
+- **arpg-combat-feel-architect** — Own combat responsiveness, targeting, timing, hit feedback, skills, reactions and player expression for the Metin2-inspired PC game direction.
+- **arpg-content-tools-architect** — Own game content-authoring tools and data pipelines for maps, items, skills, drops and balance.
+- **arpg-loot-progression-architect** — Own items, upgrades, crafting, builds, drops and long-term progression.
+- **arpg-visual-asset-architect** — Own coherent game visual identity and the game-ready asset pipeline; not general image or video generation.
 
-### Desktop & Microsoft Office
-- **ai-meeting-buddy-builder** – Project-specific owner for the local Windows AI Meeting Buddy that uses hands-free voice control of Excel and PowerPoint during live presentations.
-- **microsoft-office-companion-builder** – Build a local Windows desktop assistant that automates multiple Microsoft Office apps through voice or commands, including Word, Excel, PowerPoint and Outlook.
-- **microsoft-office-word-expert** – Create, edit, repair and QA Microsoft Office files. Primary focus: Word/DOCX styles, sections, tables, TOC and accessibility; also Excel/XLSX and PowerPoint/PPTX when no format-specific skill exists.
-- **live-presentation-orchestrator** – Own the live presenter-session workflow for Excel/PowerPoint: voice navigation, named views, zoom, scrolling, sheet/slide control and mapping audience questions to on-screen actions.
-- **live-presentation-hardener** – Near release, harden AI Meeting Buddy or Office companion software for COM stability, latency, reload recovery, local/offline behavior and large-screen presentation use.
+### Packing App and investigation
 
-### Excel Senior Conversational Pipeline
-- **excel-intake-hygiene** – Turn messy notepad text, CSV fragments or verbal descriptions into a clean, typed data model with explicit assumptions. Never invent numbers. First step.
-- **excel-structure-architect** – Design professional workbook architecture — sheets, named tables, input/assumptions/calc/output separation, naming conventions. Second step.
-- **excel-formula-senior** – Write senior-level Excel formulas — structured references, LET, dynamic arrays, no magic numbers, readable and maintainable. Third step.
-- **excel-presentation-craft** – Professional number formats, layout, print readiness and visual hierarchy so the workbook can be sent to a manager without embarrassment. Fourth step.
-- **excel-chart-master** – Senior Excel chart craft — correct chart type, table-bound series, declutter, honest axes, clear titles. When visualisation is required.
-- **excel-delivery-auditor** – Hard PASS/FAIL gate for every Excel file before user delivery. Checklist-driven veto. Final step. Authority: EXCEL-QUALITY-BAR.
+- **machine-fault-logger** — Project owner for the offline Packing App used to record machine faults, recover local state, review history and export data.
+- **ai-problem-investigator** — Perform evidence-driven root-cause analysis of operational, technical, equipment or process failures.
 
-Mandatory order: intake → structure → formula → presentation → chart (if needed) → delivery-auditor. quality-conductor may intervene after any step.
+## Deliberately removed
 
-### Systems & Interactive
-- **principal-engine-architect** – Design reusable modular system / runtime architecture: subsystems, boundaries, lifecycle, data flow, extensibility, performance and engine-level implementation.
-- **engine-ai-native-layer** – Add AI-native authoring and control interfaces to an existing modular system: declarative commands, agent APIs, validation hooks and AI-friendly content workflows.
-- **interactive-experience-architect** – Improve interaction design in a functioning interactive product: flow, statefulness, feedback, progressive disclosure, transitions and experiential polish when those are the specific problem.
-- **browser-game-expert** – Build, debug and polish complete playable browser games shareable by URL using HTML5, Canvas, Phaser, Three.js or React, including gameplay and mobile controls.
+- Five-skill quant and stock-trading cluster.
+- Browser game specialist.
+- Excel, Microsoft Office, Meeting Buddy and live-presentation clusters.
+- Grok Imagine prompt and cinematic continuity skills.
+- Requirements clarifier, recipe auditor and generic Life App cluster.
+- Business Site Studio project owner.
+- Automatic question and opportunity-hunting skills.
+- Three overlapping automatic-memory skills, replaced by `project-memory-curator`.
+- Four stacked generic final-audit/gate skills, replaced by `product-readiness-auditor`.
+- Three overlapping scored decision skills, consolidated into `product-impact-architect` and `evidence-decision-engine`.
 
-### ARPG Domain (Aetherstone & similar)
-- **arpg-combat-feel-architect** – Own ARPG combat feel: targeting, hit feedback, timing, skills, reactions, boss combat, responsiveness and player skill expression.
-- **arpg-content-tools-architect** – Own ARPG content-authoring tools and data pipelines: map/zone, item, skill, drop-table, balance and other designer-facing editors.
-- **arpg-loot-progression-architect** – Own ARPG loot and progression: item identity, upgrades, crafting, bonuses, builds, skill trees, drop systems and long-term power curves.
-- **arpg-visual-asset-architect** – Own ARPG visual identity and full asset pipeline — character NPC boss appearance, weapons gear props, environment nature grass flora, VFX particle consistency, art direction, modular production standards and Blender-first game-ready output for Aetherstone-style action RPGs.
-
-### Mobile / Life Impact
-- **principal-life-app-architect** – Design the product and technical architecture of a cross-platform mobile daily-life app, including offline behavior, core flows, reliability and real-world usefulness.
-- **life-app-hardener** – Near release, harden a life-improving mobile app for offline reliability, accessibility, recovery, store readiness and dependable daily use.
-
-### Cinematic & Creative
-- **imagine-prompt-specialist** – Create and optimize production-ready prompts specifically for Grok Imagine image or video generation, including composition, camera, lighting, style and prompt adherence.
-- **cinematic-continuity-director** – Maintain the same character/actress,wardrobe, lighting, style, location and narrative continuity across multiple connected Grok Imagine shots or video/image generations.
-
-### Quant / AI Stock System (personal professional)
-- **quant-ai-stock-system** – Orchestrator for personal AI quant stock analysis and trading systems at Simons-Thorp mathematical standards. Owns overall lifecycle, pure quant core, research-first flow and elevation of the AI Stock Analyzer project.
-- **quant-data-integrity** – Data hygiene, bias elimination, reproducibility and clean contracts. Root of all reliable analysis.
-- **quant-signal-discovery** – Pure statistical alpha and feature discovery without narrative bias.
-- **quant-validation-engine** – Independent statistical checker and gatekeeper with absolute veto power over weak signals (walk-forward, costs, regimes, decay).
-- **quant-risk-and-sizing** – Fractional Kelly, volatility targeting, portfolio construction and hard risk constraints (Thorp-style).
-
-### Other Precision Skills
-- **ai-opportunity-hunter** – Discover, validate and prioritize unmet needs specifically suited to AI capabilities or reusable AI skills, then define the highest-value opportunity.
-- **ai-problem-investigator** – Perform evidence-driven root-cause analysis of operational, technical, equipment, process, workflow or performance failures and identify the most likely cause plus next diagnostic step.
-- **machine-fault-logger** – Project-specific owner for the Faults / Machine Fault Logger offline web app: repair sessions, speech logging, LocalStorage recovery, history, charts and CSV/Excel export. (Body minimised 2026-08-24 for token efficiency.)
-- **recipe-source-auditor** – Verify or repair a cooking recipe against reliable sources and practical cookability, including ingredients, temperatures, timings, sequencing and vague preparation steps.
-
----
-
-**Permanently removed (do not recreate):**  
-- decision-scorer, senior-browser, senior-coding, disabled (aliases, 2026-08-20). Local folders deleted again 2026-08-25 after residual reappearance.
-
-**Re-activated / restored 2026-08-24 (user direction):**  
-ARPG domain skills (combat-feel, content-tools, loot-progression, visual-asset) + browser-game-expert. These remain active for Aetherstone and related work.
-
-*Last updated 2026-08-25. Active skill count: 63. Added quality-conductor (Meta) + Excel senior conversational pipeline (6 skills). Free-hand decision for highest results.*
+*Last updated 2026-08-26. Active skill count: 27.*

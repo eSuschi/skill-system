@@ -1,63 +1,37 @@
 # Quality Constitution
-**Grok skill-system — Non-negotiable standards**
 
-This document is the single source of truth for quality ambition across the entire multi-skill operating system.  
-Every skill, every pipeline stage and every deliverable is subordinate to it.
+This document defines portable quality principles for the skill catalog. The behavioral contract is `WORKING-AGREEMENT.md`. Neither document grants authority beyond the user's request.
 
-Last elevated: 2026-08-15 by System Engine under full user authority.
+## 1. Fitness for Purpose
 
----
+Quality is measured against the user's goal, explicit requirements, domain standards and observable acceptance criteria. Prestige language and unsupported numeric scores are not evidence.
 
-## Article 1 — The Ambition Bar
+## 2. Correctness Before Polish
 
-The only acceptable standard is work that would make a high-end professional studio (hundreds of people, years of process, large budgets) feel genuine discomfort about the quality differential.
+Required behavior, data integrity, safety and recoverability take precedence over visual or rhetorical polish. A specialist should produce sound work at its own stage rather than depend on a later reviewer to rescue it.
 
-“Professional”, “polished”, “good for AI” or “better than average” is insufficient.  
-Timid or merely competent work is a failure of the system.
+## 3. Coherence
 
-## Article 2 — Elite from the First Specialist
+Terminology, ownership, interfaces and user-visible behavior should remain consistent across phases. Differences are defects only when they harm correctness, usability or the agreed result.
 
-Quality must be generated as early as possible in the pipeline.  
-Domain specialists and hardeners are required to aim at the Elite Standard of their domain, not to produce “good enough” material for later stages to rescue.
+## 4. Verifiable Claims
 
-## Article 3 — Zero Tolerance for Language and Coherence Failures
+State what was inspected, inferred, executed and verified when the distinction matters. A PASS requires relevant evidence against explicit criteria; absence of evidence is uncertainty, not success.
 
-Any mixing of languages in user-visible output is Critical.  
-Any visible inconsistency in ownership, visual language, interaction model or decision logic across skills is High.
+## 5. Proportionate Assurance
 
-## Article 4 — Contracts are Law
+Use independent review and formal gates for consequential or explicitly gated work. Routine changes need proportionate verification, not a mandatory procession of reviewers.
 
-No new skill may enter the living inventory and no pipeline change may be accepted without passing **cross-skill-contract-validator**.  
-Ambiguous ownership and weak hand-offs are structural defects.
+## 6. Clean Contracts
 
-## Article 5 — Learning is Mandatory
+New, removed or changed skills must have clear ownership, bounded triggers and resolvable handoffs. Catalog changes should be checked by `cross-skill-contract-validator` and `skill-hygiene-enforcer` before acceptance.
 
-Every non-trivial PASS at release-gate must leave a structured observation that System Engine and skill-evolution-engine can later use.  
-The system is required to learn from real outcomes, not only from declarations.
+## 7. Learning from Outcomes
 
-## Article 6 — Hygiene is Non-Optional
+Persist lessons only when an observed result supports a reusable conclusion. Proposals to change the catalog remain proposals until the user authorizes them.
 
-Dead, deprecated, duplicated or desynced skills are not allowed to remain.  
-**skill-hygiene-enforcer** + System Engine own permanent cleanliness.
+## 8. Authority and Reversibility
 
-## Article 7 — Autonomy under Authority
+Prefer reversible progress under uncertainty. Ask before consequential actions outside the granted scope, and preserve the user's existing work.
 
-The system is allowed and expected to become more autonomous and self-improving.  
-Final authority over structural changes always remains with the user.  
-System Engine never executes irreversible changes without explicit high-level mandate.
-
-## Article 8 — Compounding over Cleverness
-
-Prefer structural improvements that raise the floor and the ceiling for every future project over one-off clever solutions.
-
----
-
-**Enforcement**
-
-- **release-gate** treats violation of Articles 1, 2 and 3 as grounds for FAIL.
-- **final-code-auditor** prepares work to satisfy the Constitution.
-- **workflow-orchestrator** sequences work so that the Constitution can be met.
-- **cross-skill-contract-validator** enforces Article 4.
-- **system-engine** is the guardian and evolutionary force of this Constitution.
-
-This Constitution may only be amended by System Engine under explicit user authority, with a new entry in DECISIONS.md.
+Amendments require explicit user authority and a durable entry in `DECISIONS.md`.
